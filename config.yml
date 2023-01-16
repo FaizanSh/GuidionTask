@@ -1,0 +1,32 @@
+logging: 'INFO' #Only 'DEBUG' and 'INFO' are supported
+listing:
+    source: 'datasets\\LA_Listings\\LA_Listings.csv' #Windows paths -> Change \\ to / if executing in linux
+    delemeter: ','
+    encoding: 'ISO-8859-1'
+    destination: 'pre_processed\\la_listings.csv'
+reviews:
+    source: 'datasets\\airbnb-reviews\\airbnb-reviews.csv' #Windows paths -> Change \\ to / if executing in linux
+    delemeter: ';'
+    chunk: 30000
+    encoding: 'ISO-8859-1'
+    destination: 'pre_processed\\la_airbnb-reviews.csv'
+relation: 'listing_id' #Reviews dataset will be filtered on column which is similar in both the dataset
+dim_model:
+    facts: ['airbnb_reviews']
+    airbnb_reviews_columns: ['id','listing_id','host_id','date','reviewer_id', 'price', 'comments']
+    airbnb_reviews_keys: {'id':'primary_key', 'listing_id':'forign_key', 'host_id':'forign_key', 'date':'forign_key', 'reviewer_id':'forign_key'}
+    airbnb_reviews_dtype: {'id':'int64','listing_id':'int64','host_id':'int64','date':'date','reviewer_id':'int64', 'price':'float64', 'comments':'str'}
+    fact_save: 'processed\\'
+    dimentions: ['listing', 'host', 'date', 'reviewer']
+    listing_columns: ['listing_id', 'name', 'street', 'city', 'neighbourhood_cleansed', 'state', 'country', 'latitude', 'longitude', 'property_type', 'room_type', 'accommodates', 'bathrooms', 'bedrooms', 'amenities', 'minimum_nights', 'maximum_nights', 'availability_365', 'calendar_last_scraped', 'number_of_reviews', 'last_review_date', 'review_scores_rating', 'review_scores_accuracy', 'review_scores_cleanliness', 'review_scores_checkin', 'review_scores_communication', 'review_scores_location', 'review_scores_value', 'reviews_per_month']
+    listing_dtype: {'listing_id':'int64', 'name':'str', 'street':'str', 'city':'str', 'neighbourhood_cleansed':'str', 'state':'str', 'country':'str', 'latitude':'float64', 'longitude':'float64', 'property_type':'str', 'room_type':'str', 'accommodates':'float64', 'bathrooms':'float64', 'bedrooms':'float64', 'amenities':'str', 'minimum_nights':'str', 'maximum_nights':'str', 'availability_365':'int64', 'calendar_last_scraped':'str', 'number_of_reviews':'int64', 'last_review_date':'str', 'review_scores_rating':'int64', 'review_scores_accuracy':'int64', 'review_scores_cleanliness':'int64', 'review_scores_checkin':'int64', 'review_scores_communication':'int64', 'review_scores_location':'int64', 'review_scores_value':'int64', 'reviews_per_month':'float64'}
+    host_columns: ['host_id', 'host_name', 'host_response_rate', 'host_is_superhost', 'host_total_listings_count']
+    host_dtype: {'host_id':'int64', 'host_name':'str', 'host_response_rate':'float64', 'host_is_superhost':'bool', 'host_total_listings_count':'float64'}
+    date_columns: ['date', day, 'month', 'year']
+    date_dtype: {'date':'date', 'day':'int64', 'month':'int64', 'year':'int64'}
+    reviewer_columns: ['reviewer_id','reviewer_name']
+    reviewer_dtype: {'reviewer_id':'int64', 'reviewer_name':'str'}
+    dim_save: 'processed\\'
+    apply_function_on_columns: ['host_response_rate']
+
+    

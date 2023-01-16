@@ -1,0 +1,1539 @@
+2023-01-16 16:12:12,239 - pre_processing.py - Execution Starts for Data Fimiliarity and Distribution
+2023-01-16 16:12:12,240 - pre_processing.py - Dataset path identificaitondatasets\\LA_Listings\\LA_Listings.csv
+2023-01-16 16:12:12,240 - pre_processing.py - Dataset path identificaitondatasets\\airbnb-reviews\\airbnb-reviews.csv
+2023-01-16 16:12:12,240 - pre_processing.py - Specifying filering column
+2023-01-16 16:12:12,240 - pre_processing.py - Reading from file datasets\\LA_Listings\\LA_Listings.csv
+2023-01-16 16:12:12,746 - pre_processing.py - Imported Smalled Dataset
+2023-01-16 16:12:12,746 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:12,945 - pre_processing.py - Dropping duplicates in la listing
+2023-01-16 16:12:12,951 - pre_processing.py - Imported larger dataset in chunks
+2023-01-16 16:12:13,141 - pre_processing.py - Processing Chunk 0
+2023-01-16 16:12:13,141 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:13,173 - pre_processing.py - temp\chunk_0.csv File Successfully Saved on Disk
+2023-01-16 16:12:13,400 - pre_processing.py - Processing Chunk 1
+2023-01-16 16:12:13,401 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:13,412 - pre_processing.py - temp\chunk_1.csv File Successfully Saved on Disk
+2023-01-16 16:12:13,629 - pre_processing.py - Processing Chunk 2
+2023-01-16 16:12:13,629 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:13,644 - pre_processing.py - temp\chunk_2.csv File Successfully Saved on Disk
+2023-01-16 16:12:13,855 - pre_processing.py - Processing Chunk 3
+2023-01-16 16:12:13,865 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:13,877 - pre_processing.py - temp\chunk_3.csv File Successfully Saved on Disk
+2023-01-16 16:12:14,071 - pre_processing.py - Processing Chunk 4
+2023-01-16 16:12:14,071 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:14,089 - pre_processing.py - temp\chunk_4.csv File Successfully Saved on Disk
+2023-01-16 16:12:14,273 - pre_processing.py - Processing Chunk 5
+2023-01-16 16:12:14,273 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:14,294 - pre_processing.py - temp\chunk_5.csv File Successfully Saved on Disk
+2023-01-16 16:12:14,504 - pre_processing.py - Processing Chunk 6
+2023-01-16 16:12:14,505 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:14,516 - pre_processing.py - temp\chunk_6.csv File Successfully Saved on Disk
+2023-01-16 16:12:14,731 - pre_processing.py - Processing Chunk 7
+2023-01-16 16:12:14,731 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:14,744 - pre_processing.py - temp\chunk_7.csv File Successfully Saved on Disk
+2023-01-16 16:12:14,986 - pre_processing.py - Processing Chunk 8
+2023-01-16 16:12:14,986 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:15,002 - pre_processing.py - temp\chunk_8.csv File Successfully Saved on Disk
+2023-01-16 16:12:15,203 - pre_processing.py - Processing Chunk 9
+2023-01-16 16:12:15,203 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:15,225 - pre_processing.py - temp\chunk_9.csv File Successfully Saved on Disk
+2023-01-16 16:12:15,419 - pre_processing.py - Processing Chunk 10
+2023-01-16 16:12:15,419 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:15,484 - pre_processing.py - temp\chunk_10.csv File Successfully Saved on Disk
+2023-01-16 16:12:15,719 - pre_processing.py - Processing Chunk 11
+2023-01-16 16:12:15,719 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:15,734 - pre_processing.py - temp\chunk_11.csv File Successfully Saved on Disk
+2023-01-16 16:12:15,953 - pre_processing.py - Processing Chunk 12
+2023-01-16 16:12:15,953 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:15,989 - pre_processing.py - temp\chunk_12.csv File Successfully Saved on Disk
+2023-01-16 16:12:16,182 - pre_processing.py - Processing Chunk 13
+2023-01-16 16:12:16,182 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:16,321 - pre_processing.py - temp\chunk_13.csv File Successfully Saved on Disk
+2023-01-16 16:12:16,535 - pre_processing.py - Processing Chunk 14
+2023-01-16 16:12:16,535 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:16,670 - pre_processing.py - temp\chunk_14.csv File Successfully Saved on Disk
+2023-01-16 16:12:16,855 - pre_processing.py - Processing Chunk 15
+2023-01-16 16:12:16,855 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:17,010 - pre_processing.py - temp\chunk_15.csv File Successfully Saved on Disk
+2023-01-16 16:12:17,193 - pre_processing.py - Processing Chunk 16
+2023-01-16 16:12:17,193 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:17,283 - pre_processing.py - temp\chunk_16.csv File Successfully Saved on Disk
+2023-01-16 16:12:17,511 - pre_processing.py - Processing Chunk 17
+2023-01-16 16:12:17,511 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:17,521 - pre_processing.py - temp\chunk_17.csv File Successfully Saved on Disk
+2023-01-16 16:12:17,715 - pre_processing.py - Processing Chunk 18
+2023-01-16 16:12:17,715 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:17,736 - pre_processing.py - temp\chunk_18.csv File Successfully Saved on Disk
+2023-01-16 16:12:18,088 - pre_processing.py - Processing Chunk 19
+2023-01-16 16:12:18,088 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:18,104 - pre_processing.py - temp\chunk_19.csv File Successfully Saved on Disk
+2023-01-16 16:12:18,289 - pre_processing.py - Processing Chunk 20
+2023-01-16 16:12:18,289 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:18,301 - pre_processing.py - temp\chunk_20.csv File Successfully Saved on Disk
+2023-01-16 16:12:18,483 - pre_processing.py - Processing Chunk 21
+2023-01-16 16:12:18,483 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:18,496 - pre_processing.py - temp\chunk_21.csv File Successfully Saved on Disk
+2023-01-16 16:12:18,688 - pre_processing.py - Processing Chunk 22
+2023-01-16 16:12:18,690 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:18,700 - pre_processing.py - temp\chunk_22.csv File Successfully Saved on Disk
+2023-01-16 16:12:18,895 - pre_processing.py - Processing Chunk 23
+2023-01-16 16:12:18,895 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:18,915 - pre_processing.py - temp\chunk_23.csv File Successfully Saved on Disk
+2023-01-16 16:12:19,129 - pre_processing.py - Processing Chunk 24
+2023-01-16 16:12:19,129 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:19,147 - pre_processing.py - temp\chunk_24.csv File Successfully Saved on Disk
+2023-01-16 16:12:19,334 - pre_processing.py - Processing Chunk 25
+2023-01-16 16:12:19,334 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:19,345 - pre_processing.py - temp\chunk_25.csv File Successfully Saved on Disk
+2023-01-16 16:12:19,529 - pre_processing.py - Processing Chunk 26
+2023-01-16 16:12:19,529 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:19,547 - pre_processing.py - temp\chunk_26.csv File Successfully Saved on Disk
+2023-01-16 16:12:19,732 - pre_processing.py - Processing Chunk 27
+2023-01-16 16:12:19,732 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:19,773 - pre_processing.py - temp\chunk_27.csv File Successfully Saved on Disk
+2023-01-16 16:12:19,957 - pre_processing.py - Processing Chunk 28
+2023-01-16 16:12:19,957 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:20,317 - pre_processing.py - temp\chunk_28.csv File Successfully Saved on Disk
+2023-01-16 16:12:20,703 - pre_processing.py - Processing Chunk 29
+2023-01-16 16:12:20,703 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:21,063 - pre_processing.py - temp\chunk_29.csv File Successfully Saved on Disk
+2023-01-16 16:12:21,436 - pre_processing.py - Processing Chunk 30
+2023-01-16 16:12:21,444 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:21,829 - pre_processing.py - temp\chunk_30.csv File Successfully Saved on Disk
+2023-01-16 16:12:22,177 - pre_processing.py - Processing Chunk 31
+2023-01-16 16:12:22,178 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:22,372 - pre_processing.py - temp\chunk_31.csv File Successfully Saved on Disk
+2023-01-16 16:12:22,754 - pre_processing.py - Processing Chunk 32
+2023-01-16 16:12:22,754 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:22,947 - pre_processing.py - temp\chunk_32.csv File Successfully Saved on Disk
+2023-01-16 16:12:23,322 - pre_processing.py - Processing Chunk 33
+2023-01-16 16:12:23,322 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:23,562 - pre_processing.py - temp\chunk_33.csv File Successfully Saved on Disk
+2023-01-16 16:12:23,945 - pre_processing.py - Processing Chunk 34
+2023-01-16 16:12:23,946 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:24,249 - pre_processing.py - temp\chunk_34.csv File Successfully Saved on Disk
+2023-01-16 16:12:24,593 - pre_processing.py - Processing Chunk 35
+2023-01-16 16:12:24,594 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:24,873 - pre_processing.py - temp\chunk_35.csv File Successfully Saved on Disk
+2023-01-16 16:12:25,247 - pre_processing.py - Processing Chunk 36
+2023-01-16 16:12:25,248 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:25,412 - pre_processing.py - temp\chunk_36.csv File Successfully Saved on Disk
+2023-01-16 16:12:25,763 - pre_processing.py - Processing Chunk 37
+2023-01-16 16:12:25,778 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:25,957 - pre_processing.py - temp\chunk_37.csv File Successfully Saved on Disk
+2023-01-16 16:12:26,341 - pre_processing.py - Processing Chunk 38
+2023-01-16 16:12:26,341 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:26,441 - pre_processing.py - temp\chunk_38.csv File Successfully Saved on Disk
+2023-01-16 16:12:26,808 - pre_processing.py - Processing Chunk 39
+2023-01-16 16:12:26,808 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:26,899 - pre_processing.py - temp\chunk_39.csv File Successfully Saved on Disk
+2023-01-16 16:12:27,277 - pre_processing.py - Processing Chunk 40
+2023-01-16 16:12:27,277 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:27,465 - pre_processing.py - temp\chunk_40.csv File Successfully Saved on Disk
+2023-01-16 16:12:27,701 - pre_processing.py - Processing Chunk 41
+2023-01-16 16:12:27,701 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:27,801 - pre_processing.py - temp\chunk_41.csv File Successfully Saved on Disk
+2023-01-16 16:12:28,129 - pre_processing.py - Processing Chunk 42
+2023-01-16 16:12:28,130 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:28,304 - pre_processing.py - temp\chunk_42.csv File Successfully Saved on Disk
+2023-01-16 16:12:28,749 - pre_processing.py - Processing Chunk 43
+2023-01-16 16:12:28,749 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:28,782 - pre_processing.py - temp\chunk_43.csv File Successfully Saved on Disk
+2023-01-16 16:12:29,196 - pre_processing.py - Processing Chunk 44
+2023-01-16 16:12:29,197 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:29,227 - pre_processing.py - temp\chunk_44.csv File Successfully Saved on Disk
+2023-01-16 16:12:29,667 - pre_processing.py - Processing Chunk 45
+2023-01-16 16:12:29,667 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:29,699 - pre_processing.py - temp\chunk_45.csv File Successfully Saved on Disk
+2023-01-16 16:12:30,189 - pre_processing.py - Processing Chunk 46
+2023-01-16 16:12:30,189 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:30,224 - pre_processing.py - temp\chunk_46.csv File Successfully Saved on Disk
+2023-01-16 16:12:30,635 - pre_processing.py - Processing Chunk 47
+2023-01-16 16:12:30,635 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:30,718 - pre_processing.py - temp\chunk_47.csv File Successfully Saved on Disk
+2023-01-16 16:12:31,103 - pre_processing.py - Processing Chunk 48
+2023-01-16 16:12:31,103 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:31,278 - pre_processing.py - temp\chunk_48.csv File Successfully Saved on Disk
+2023-01-16 16:12:31,483 - pre_processing.py - Processing Chunk 49
+2023-01-16 16:12:31,483 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:31,561 - pre_processing.py - temp\chunk_49.csv File Successfully Saved on Disk
+2023-01-16 16:12:31,751 - pre_processing.py - Processing Chunk 50
+2023-01-16 16:12:31,751 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:31,828 - pre_processing.py - temp\chunk_50.csv File Successfully Saved on Disk
+2023-01-16 16:12:32,051 - pre_processing.py - Processing Chunk 51
+2023-01-16 16:12:32,052 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:32,203 - pre_processing.py - temp\chunk_51.csv File Successfully Saved on Disk
+2023-01-16 16:12:32,524 - pre_processing.py - Processing Chunk 52
+2023-01-16 16:12:32,524 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:32,673 - pre_processing.py - temp\chunk_52.csv File Successfully Saved on Disk
+2023-01-16 16:12:32,976 - pre_processing.py - Processing Chunk 53
+2023-01-16 16:12:32,976 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:33,155 - pre_processing.py - temp\chunk_53.csv File Successfully Saved on Disk
+2023-01-16 16:12:33,366 - pre_processing.py - Processing Chunk 54
+2023-01-16 16:12:33,367 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:33,520 - pre_processing.py - temp\chunk_54.csv File Successfully Saved on Disk
+2023-01-16 16:12:33,759 - pre_processing.py - Processing Chunk 55
+2023-01-16 16:12:33,759 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:33,891 - pre_processing.py - temp\chunk_55.csv File Successfully Saved on Disk
+2023-01-16 16:12:34,084 - pre_processing.py - Processing Chunk 56
+2023-01-16 16:12:34,084 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:34,213 - pre_processing.py - temp\chunk_56.csv File Successfully Saved on Disk
+2023-01-16 16:12:34,395 - pre_processing.py - Processing Chunk 57
+2023-01-16 16:12:34,395 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:34,596 - pre_processing.py - temp\chunk_57.csv File Successfully Saved on Disk
+2023-01-16 16:12:34,789 - pre_processing.py - Processing Chunk 58
+2023-01-16 16:12:34,789 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:35,005 - pre_processing.py - temp\chunk_58.csv File Successfully Saved on Disk
+2023-01-16 16:12:35,209 - pre_processing.py - Processing Chunk 59
+2023-01-16 16:12:35,209 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:35,407 - pre_processing.py - temp\chunk_59.csv File Successfully Saved on Disk
+2023-01-16 16:12:35,588 - pre_processing.py - Processing Chunk 60
+2023-01-16 16:12:35,588 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:35,741 - pre_processing.py - temp\chunk_60.csv File Successfully Saved on Disk
+2023-01-16 16:12:35,955 - pre_processing.py - Processing Chunk 61
+2023-01-16 16:12:35,955 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:36,149 - pre_processing.py - temp\chunk_61.csv File Successfully Saved on Disk
+2023-01-16 16:12:36,333 - pre_processing.py - Processing Chunk 62
+2023-01-16 16:12:36,333 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:36,476 - pre_processing.py - temp\chunk_62.csv File Successfully Saved on Disk
+2023-01-16 16:12:36,661 - pre_processing.py - Processing Chunk 63
+2023-01-16 16:12:36,661 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:36,815 - pre_processing.py - temp\chunk_63.csv File Successfully Saved on Disk
+2023-01-16 16:12:36,991 - pre_processing.py - Processing Chunk 64
+2023-01-16 16:12:36,991 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:37,144 - pre_processing.py - temp\chunk_64.csv File Successfully Saved on Disk
+2023-01-16 16:12:37,328 - pre_processing.py - Processing Chunk 65
+2023-01-16 16:12:37,328 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:37,479 - pre_processing.py - temp\chunk_65.csv File Successfully Saved on Disk
+2023-01-16 16:12:37,677 - pre_processing.py - Processing Chunk 66
+2023-01-16 16:12:37,677 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:37,799 - pre_processing.py - temp\chunk_66.csv File Successfully Saved on Disk
+2023-01-16 16:12:37,990 - pre_processing.py - Processing Chunk 67
+2023-01-16 16:12:37,992 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:38,085 - pre_processing.py - temp\chunk_67.csv File Successfully Saved on Disk
+2023-01-16 16:12:38,332 - pre_processing.py - Processing Chunk 68
+2023-01-16 16:12:38,332 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:38,497 - pre_processing.py - temp\chunk_68.csv File Successfully Saved on Disk
+2023-01-16 16:12:38,763 - pre_processing.py - Processing Chunk 69
+2023-01-16 16:12:38,763 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:38,928 - pre_processing.py - temp\chunk_69.csv File Successfully Saved on Disk
+2023-01-16 16:12:39,103 - pre_processing.py - Processing Chunk 70
+2023-01-16 16:12:39,103 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:39,205 - pre_processing.py - temp\chunk_70.csv File Successfully Saved on Disk
+2023-01-16 16:12:39,379 - pre_processing.py - Processing Chunk 71
+2023-01-16 16:12:39,379 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:39,495 - pre_processing.py - temp\chunk_71.csv File Successfully Saved on Disk
+2023-01-16 16:12:39,665 - pre_processing.py - Processing Chunk 72
+2023-01-16 16:12:39,665 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:39,799 - pre_processing.py - temp\chunk_72.csv File Successfully Saved on Disk
+2023-01-16 16:12:39,974 - pre_processing.py - Processing Chunk 73
+2023-01-16 16:12:39,974 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:40,127 - pre_processing.py - temp\chunk_73.csv File Successfully Saved on Disk
+2023-01-16 16:12:40,366 - pre_processing.py - Processing Chunk 74
+2023-01-16 16:12:40,366 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:40,515 - pre_processing.py - temp\chunk_74.csv File Successfully Saved on Disk
+2023-01-16 16:12:40,699 - pre_processing.py - Processing Chunk 75
+2023-01-16 16:12:40,699 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:40,818 - pre_processing.py - temp\chunk_75.csv File Successfully Saved on Disk
+2023-01-16 16:12:41,014 - pre_processing.py - Processing Chunk 76
+2023-01-16 16:12:41,014 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:41,051 - pre_processing.py - temp\chunk_76.csv File Successfully Saved on Disk
+2023-01-16 16:12:41,227 - pre_processing.py - Processing Chunk 77
+2023-01-16 16:12:41,227 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:41,289 - pre_processing.py - temp\chunk_77.csv File Successfully Saved on Disk
+2023-01-16 16:12:41,471 - pre_processing.py - Processing Chunk 78
+2023-01-16 16:12:41,471 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:41,603 - pre_processing.py - temp\chunk_78.csv File Successfully Saved on Disk
+2023-01-16 16:12:41,818 - pre_processing.py - Processing Chunk 79
+2023-01-16 16:12:41,818 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:41,898 - pre_processing.py - temp\chunk_79.csv File Successfully Saved on Disk
+2023-01-16 16:12:42,123 - pre_processing.py - Processing Chunk 80
+2023-01-16 16:12:42,125 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:42,196 - pre_processing.py - temp\chunk_80.csv File Successfully Saved on Disk
+2023-01-16 16:12:42,377 - pre_processing.py - Processing Chunk 81
+2023-01-16 16:12:42,377 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:42,479 - pre_processing.py - temp\chunk_81.csv File Successfully Saved on Disk
+2023-01-16 16:12:42,665 - pre_processing.py - Processing Chunk 82
+2023-01-16 16:12:42,673 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:42,716 - pre_processing.py - temp\chunk_82.csv File Successfully Saved on Disk
+2023-01-16 16:12:42,910 - pre_processing.py - Processing Chunk 83
+2023-01-16 16:12:42,910 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:42,972 - pre_processing.py - temp\chunk_83.csv File Successfully Saved on Disk
+2023-01-16 16:12:43,167 - pre_processing.py - Processing Chunk 84
+2023-01-16 16:12:43,176 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:43,237 - pre_processing.py - temp\chunk_84.csv File Successfully Saved on Disk
+2023-01-16 16:12:43,414 - pre_processing.py - Processing Chunk 85
+2023-01-16 16:12:43,414 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:43,547 - pre_processing.py - temp\chunk_85.csv File Successfully Saved on Disk
+2023-01-16 16:12:43,760 - pre_processing.py - Processing Chunk 86
+2023-01-16 16:12:43,760 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:43,892 - pre_processing.py - temp\chunk_86.csv File Successfully Saved on Disk
+2023-01-16 16:12:44,078 - pre_processing.py - Processing Chunk 87
+2023-01-16 16:12:44,078 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:44,211 - pre_processing.py - temp\chunk_87.csv File Successfully Saved on Disk
+2023-01-16 16:12:44,429 - pre_processing.py - Processing Chunk 88
+2023-01-16 16:12:44,435 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:44,549 - pre_processing.py - temp\chunk_88.csv File Successfully Saved on Disk
+2023-01-16 16:12:44,740 - pre_processing.py - Processing Chunk 89
+2023-01-16 16:12:44,740 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:44,863 - pre_processing.py - temp\chunk_89.csv File Successfully Saved on Disk
+2023-01-16 16:12:45,048 - pre_processing.py - Processing Chunk 90
+2023-01-16 16:12:45,048 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:45,181 - pre_processing.py - temp\chunk_90.csv File Successfully Saved on Disk
+2023-01-16 16:12:45,363 - pre_processing.py - Processing Chunk 91
+2023-01-16 16:12:45,363 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:45,497 - pre_processing.py - temp\chunk_91.csv File Successfully Saved on Disk
+2023-01-16 16:12:45,694 - pre_processing.py - Processing Chunk 92
+2023-01-16 16:12:45,694 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:45,838 - pre_processing.py - temp\chunk_92.csv File Successfully Saved on Disk
+2023-01-16 16:12:46,014 - pre_processing.py - Processing Chunk 93
+2023-01-16 16:12:46,014 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:46,124 - pre_processing.py - temp\chunk_93.csv File Successfully Saved on Disk
+2023-01-16 16:12:46,290 - pre_processing.py - Processing Chunk 94
+2023-01-16 16:12:46,290 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:46,362 - pre_processing.py - temp\chunk_94.csv File Successfully Saved on Disk
+2023-01-16 16:12:46,532 - pre_processing.py - Processing Chunk 95
+2023-01-16 16:12:46,535 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:46,600 - pre_processing.py - temp\chunk_95.csv File Successfully Saved on Disk
+2023-01-16 16:12:46,768 - pre_processing.py - Processing Chunk 96
+2023-01-16 16:12:46,768 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:46,840 - pre_processing.py - temp\chunk_96.csv File Successfully Saved on Disk
+2023-01-16 16:12:47,015 - pre_processing.py - Processing Chunk 97
+2023-01-16 16:12:47,015 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:47,098 - pre_processing.py - temp\chunk_97.csv File Successfully Saved on Disk
+2023-01-16 16:12:47,292 - pre_processing.py - Processing Chunk 98
+2023-01-16 16:12:47,292 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:47,365 - pre_processing.py - temp\chunk_98.csv File Successfully Saved on Disk
+2023-01-16 16:12:47,541 - pre_processing.py - Processing Chunk 99
+2023-01-16 16:12:47,541 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:47,608 - pre_processing.py - temp\chunk_99.csv File Successfully Saved on Disk
+2023-01-16 16:12:47,805 - pre_processing.py - Processing Chunk 100
+2023-01-16 16:12:47,805 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:47,867 - pre_processing.py - temp\chunk_100.csv File Successfully Saved on Disk
+2023-01-16 16:12:48,041 - pre_processing.py - Processing Chunk 101
+2023-01-16 16:12:48,041 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:48,110 - pre_processing.py - temp\chunk_101.csv File Successfully Saved on Disk
+2023-01-16 16:12:48,286 - pre_processing.py - Processing Chunk 102
+2023-01-16 16:12:48,286 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:48,378 - pre_processing.py - temp\chunk_102.csv File Successfully Saved on Disk
+2023-01-16 16:12:48,561 - pre_processing.py - Processing Chunk 103
+2023-01-16 16:12:48,561 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:48,643 - pre_processing.py - temp\chunk_103.csv File Successfully Saved on Disk
+2023-01-16 16:12:48,859 - pre_processing.py - Processing Chunk 104
+2023-01-16 16:12:48,859 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:48,973 - pre_processing.py - temp\chunk_104.csv File Successfully Saved on Disk
+2023-01-16 16:12:49,166 - pre_processing.py - Processing Chunk 105
+2023-01-16 16:12:49,166 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:49,288 - pre_processing.py - temp\chunk_105.csv File Successfully Saved on Disk
+2023-01-16 16:12:49,492 - pre_processing.py - Processing Chunk 106
+2023-01-16 16:12:49,492 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:49,709 - pre_processing.py - temp\chunk_106.csv File Successfully Saved on Disk
+2023-01-16 16:12:49,913 - pre_processing.py - Processing Chunk 107
+2023-01-16 16:12:49,913 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:50,085 - pre_processing.py - temp\chunk_107.csv File Successfully Saved on Disk
+2023-01-16 16:12:50,259 - pre_processing.py - Processing Chunk 108
+2023-01-16 16:12:50,261 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:50,392 - pre_processing.py - temp\chunk_108.csv File Successfully Saved on Disk
+2023-01-16 16:12:50,566 - pre_processing.py - Processing Chunk 109
+2023-01-16 16:12:50,566 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:50,703 - pre_processing.py - temp\chunk_109.csv File Successfully Saved on Disk
+2023-01-16 16:12:50,876 - pre_processing.py - Processing Chunk 110
+2023-01-16 16:12:50,876 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:50,979 - pre_processing.py - temp\chunk_110.csv File Successfully Saved on Disk
+2023-01-16 16:12:51,186 - pre_processing.py - Processing Chunk 111
+2023-01-16 16:12:51,186 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:51,256 - pre_processing.py - temp\chunk_111.csv File Successfully Saved on Disk
+2023-01-16 16:12:51,429 - pre_processing.py - Processing Chunk 112
+2023-01-16 16:12:51,437 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:51,489 - pre_processing.py - temp\chunk_112.csv File Successfully Saved on Disk
+2023-01-16 16:12:51,675 - pre_processing.py - Processing Chunk 113
+2023-01-16 16:12:51,681 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:51,758 - pre_processing.py - temp\chunk_113.csv File Successfully Saved on Disk
+2023-01-16 16:12:51,941 - pre_processing.py - Processing Chunk 114
+2023-01-16 16:12:51,941 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:52,003 - pre_processing.py - temp\chunk_114.csv File Successfully Saved on Disk
+2023-01-16 16:12:52,240 - pre_processing.py - Processing Chunk 115
+2023-01-16 16:12:52,240 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:52,290 - pre_processing.py - temp\chunk_115.csv File Successfully Saved on Disk
+2023-01-16 16:12:52,474 - pre_processing.py - Processing Chunk 116
+2023-01-16 16:12:52,474 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:52,566 - pre_processing.py - temp\chunk_116.csv File Successfully Saved on Disk
+2023-01-16 16:12:52,761 - pre_processing.py - Processing Chunk 117
+2023-01-16 16:12:52,761 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:52,872 - pre_processing.py - temp\chunk_117.csv File Successfully Saved on Disk
+2023-01-16 16:12:53,048 - pre_processing.py - Processing Chunk 118
+2023-01-16 16:12:53,048 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:53,203 - pre_processing.py - temp\chunk_118.csv File Successfully Saved on Disk
+2023-01-16 16:12:53,383 - pre_processing.py - Processing Chunk 119
+2023-01-16 16:12:53,383 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:53,528 - pre_processing.py - temp\chunk_119.csv File Successfully Saved on Disk
+2023-01-16 16:12:53,703 - pre_processing.py - Processing Chunk 120
+2023-01-16 16:12:53,709 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:53,896 - pre_processing.py - temp\chunk_120.csv File Successfully Saved on Disk
+2023-01-16 16:12:54,069 - pre_processing.py - Processing Chunk 121
+2023-01-16 16:12:54,069 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:54,214 - pre_processing.py - temp\chunk_121.csv File Successfully Saved on Disk
+2023-01-16 16:12:54,499 - pre_processing.py - Processing Chunk 122
+2023-01-16 16:12:54,500 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:54,623 - pre_processing.py - temp\chunk_122.csv File Successfully Saved on Disk
+2023-01-16 16:12:54,858 - pre_processing.py - Processing Chunk 123
+2023-01-16 16:12:54,858 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:54,992 - pre_processing.py - temp\chunk_123.csv File Successfully Saved on Disk
+2023-01-16 16:12:55,175 - pre_processing.py - Processing Chunk 124
+2023-01-16 16:12:55,175 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:55,360 - pre_processing.py - temp\chunk_124.csv File Successfully Saved on Disk
+2023-01-16 16:12:55,541 - pre_processing.py - Processing Chunk 125
+2023-01-16 16:12:55,541 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:55,634 - pre_processing.py - temp\chunk_125.csv File Successfully Saved on Disk
+2023-01-16 16:12:55,850 - pre_processing.py - Processing Chunk 126
+2023-01-16 16:12:55,850 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:55,921 - pre_processing.py - temp\chunk_126.csv File Successfully Saved on Disk
+2023-01-16 16:12:56,104 - pre_processing.py - Processing Chunk 127
+2023-01-16 16:12:56,104 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:56,186 - pre_processing.py - temp\chunk_127.csv File Successfully Saved on Disk
+2023-01-16 16:12:56,380 - pre_processing.py - Processing Chunk 128
+2023-01-16 16:12:56,380 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:56,442 - pre_processing.py - temp\chunk_128.csv File Successfully Saved on Disk
+2023-01-16 16:12:56,663 - pre_processing.py - Processing Chunk 129
+2023-01-16 16:12:56,663 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:56,758 - pre_processing.py - temp\chunk_129.csv File Successfully Saved on Disk
+2023-01-16 16:12:56,929 - pre_processing.py - Processing Chunk 130
+2023-01-16 16:12:56,929 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:57,004 - pre_processing.py - temp\chunk_130.csv File Successfully Saved on Disk
+2023-01-16 16:12:57,198 - pre_processing.py - Processing Chunk 131
+2023-01-16 16:12:57,198 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:57,332 - pre_processing.py - temp\chunk_131.csv File Successfully Saved on Disk
+2023-01-16 16:12:57,514 - pre_processing.py - Processing Chunk 132
+2023-01-16 16:12:57,514 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:57,629 - pre_processing.py - temp\chunk_132.csv File Successfully Saved on Disk
+2023-01-16 16:12:57,802 - pre_processing.py - Processing Chunk 133
+2023-01-16 16:12:57,802 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:57,900 - pre_processing.py - temp\chunk_133.csv File Successfully Saved on Disk
+2023-01-16 16:12:58,128 - pre_processing.py - Processing Chunk 134
+2023-01-16 16:12:58,128 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:58,198 - pre_processing.py - temp\chunk_134.csv File Successfully Saved on Disk
+2023-01-16 16:12:58,456 - pre_processing.py - Processing Chunk 135
+2023-01-16 16:12:58,456 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:58,508 - pre_processing.py - temp\chunk_135.csv File Successfully Saved on Disk
+2023-01-16 16:12:58,681 - pre_processing.py - Processing Chunk 136
+2023-01-16 16:12:58,681 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:58,733 - pre_processing.py - temp\chunk_136.csv File Successfully Saved on Disk
+2023-01-16 16:12:58,918 - pre_processing.py - Processing Chunk 137
+2023-01-16 16:12:58,918 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:58,937 - pre_processing.py - temp\chunk_137.csv File Successfully Saved on Disk
+2023-01-16 16:12:59,133 - pre_processing.py - Processing Chunk 138
+2023-01-16 16:12:59,133 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:59,150 - pre_processing.py - temp\chunk_138.csv File Successfully Saved on Disk
+2023-01-16 16:12:59,328 - pre_processing.py - Processing Chunk 139
+2023-01-16 16:12:59,328 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:59,349 - pre_processing.py - temp\chunk_139.csv File Successfully Saved on Disk
+2023-01-16 16:12:59,542 - pre_processing.py - Processing Chunk 140
+2023-01-16 16:12:59,551 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:59,563 - pre_processing.py - temp\chunk_140.csv File Successfully Saved on Disk
+2023-01-16 16:12:59,778 - pre_processing.py - Processing Chunk 141
+2023-01-16 16:12:59,779 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:12:59,789 - pre_processing.py - temp\chunk_141.csv File Successfully Saved on Disk
+2023-01-16 16:12:59,982 - pre_processing.py - Processing Chunk 142
+2023-01-16 16:12:59,982 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:00,003 - pre_processing.py - temp\chunk_142.csv File Successfully Saved on Disk
+2023-01-16 16:13:00,196 - pre_processing.py - Processing Chunk 143
+2023-01-16 16:13:00,196 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:00,207 - pre_processing.py - temp\chunk_143.csv File Successfully Saved on Disk
+2023-01-16 16:13:00,392 - pre_processing.py - Processing Chunk 144
+2023-01-16 16:13:00,392 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:00,411 - pre_processing.py - temp\chunk_144.csv File Successfully Saved on Disk
+2023-01-16 16:13:00,596 - pre_processing.py - Processing Chunk 145
+2023-01-16 16:13:00,596 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:00,614 - pre_processing.py - temp\chunk_145.csv File Successfully Saved on Disk
+2023-01-16 16:13:00,841 - pre_processing.py - Processing Chunk 146
+2023-01-16 16:13:00,841 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:00,860 - pre_processing.py - temp\chunk_146.csv File Successfully Saved on Disk
+2023-01-16 16:13:01,034 - pre_processing.py - Processing Chunk 147
+2023-01-16 16:13:01,034 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:01,055 - pre_processing.py - temp\chunk_147.csv File Successfully Saved on Disk
+2023-01-16 16:13:01,230 - pre_processing.py - Processing Chunk 148
+2023-01-16 16:13:01,230 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:01,251 - pre_processing.py - temp\chunk_148.csv File Successfully Saved on Disk
+2023-01-16 16:13:01,444 - pre_processing.py - Processing Chunk 149
+2023-01-16 16:13:01,444 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:01,464 - pre_processing.py - temp\chunk_149.csv File Successfully Saved on Disk
+2023-01-16 16:13:01,648 - pre_processing.py - Processing Chunk 150
+2023-01-16 16:13:01,648 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:01,666 - pre_processing.py - temp\chunk_150.csv File Successfully Saved on Disk
+2023-01-16 16:13:01,844 - pre_processing.py - Processing Chunk 151
+2023-01-16 16:13:01,844 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:01,862 - pre_processing.py - temp\chunk_151.csv File Successfully Saved on Disk
+2023-01-16 16:13:02,032 - pre_processing.py - Processing Chunk 152
+2023-01-16 16:13:02,032 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:02,071 - pre_processing.py - temp\chunk_152.csv File Successfully Saved on Disk
+2023-01-16 16:13:02,257 - pre_processing.py - Processing Chunk 153
+2023-01-16 16:13:02,257 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:02,322 - pre_processing.py - temp\chunk_153.csv File Successfully Saved on Disk
+2023-01-16 16:13:02,510 - pre_processing.py - Processing Chunk 154
+2023-01-16 16:13:02,510 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:02,615 - pre_processing.py - temp\chunk_154.csv File Successfully Saved on Disk
+2023-01-16 16:13:02,797 - pre_processing.py - Processing Chunk 155
+2023-01-16 16:13:02,797 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:02,822 - pre_processing.py - temp\chunk_155.csv File Successfully Saved on Disk
+2023-01-16 16:13:03,074 - pre_processing.py - Processing Chunk 156
+2023-01-16 16:13:03,074 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:03,097 - pre_processing.py - temp\chunk_156.csv File Successfully Saved on Disk
+2023-01-16 16:13:03,322 - pre_processing.py - Processing Chunk 157
+2023-01-16 16:13:03,323 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:03,347 - pre_processing.py - temp\chunk_157.csv File Successfully Saved on Disk
+2023-01-16 16:13:03,526 - pre_processing.py - Processing Chunk 158
+2023-01-16 16:13:03,526 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:03,547 - pre_processing.py - temp\chunk_158.csv File Successfully Saved on Disk
+2023-01-16 16:13:03,730 - pre_processing.py - Processing Chunk 159
+2023-01-16 16:13:03,730 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:03,749 - pre_processing.py - temp\chunk_159.csv File Successfully Saved on Disk
+2023-01-16 16:13:03,944 - pre_processing.py - Processing Chunk 160
+2023-01-16 16:13:03,944 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:03,955 - pre_processing.py - temp\chunk_160.csv File Successfully Saved on Disk
+2023-01-16 16:13:04,138 - pre_processing.py - Processing Chunk 161
+2023-01-16 16:13:04,138 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:04,149 - pre_processing.py - temp\chunk_161.csv File Successfully Saved on Disk
+2023-01-16 16:13:04,362 - pre_processing.py - Processing Chunk 162
+2023-01-16 16:13:04,362 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:04,382 - pre_processing.py - temp\chunk_162.csv File Successfully Saved on Disk
+2023-01-16 16:13:04,574 - pre_processing.py - Processing Chunk 163
+2023-01-16 16:13:04,574 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:04,586 - pre_processing.py - temp\chunk_163.csv File Successfully Saved on Disk
+2023-01-16 16:13:04,781 - pre_processing.py - Processing Chunk 164
+2023-01-16 16:13:04,781 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:04,790 - pre_processing.py - temp\chunk_164.csv File Successfully Saved on Disk
+2023-01-16 16:13:05,026 - pre_processing.py - Processing Chunk 165
+2023-01-16 16:13:05,026 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:05,048 - pre_processing.py - temp\chunk_165.csv File Successfully Saved on Disk
+2023-01-16 16:13:05,229 - pre_processing.py - Processing Chunk 166
+2023-01-16 16:13:05,231 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:05,242 - pre_processing.py - temp\chunk_166.csv File Successfully Saved on Disk
+2023-01-16 16:13:05,457 - pre_processing.py - Processing Chunk 167
+2023-01-16 16:13:05,457 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:05,477 - pre_processing.py - temp\chunk_167.csv File Successfully Saved on Disk
+2023-01-16 16:13:05,660 - pre_processing.py - Processing Chunk 168
+2023-01-16 16:13:05,660 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:05,672 - pre_processing.py - temp\chunk_168.csv File Successfully Saved on Disk
+2023-01-16 16:13:05,867 - pre_processing.py - Processing Chunk 169
+2023-01-16 16:13:05,867 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:05,889 - pre_processing.py - temp\chunk_169.csv File Successfully Saved on Disk
+2023-01-16 16:13:06,079 - pre_processing.py - Processing Chunk 170
+2023-01-16 16:13:06,079 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:06,092 - pre_processing.py - temp\chunk_170.csv File Successfully Saved on Disk
+2023-01-16 16:13:06,305 - pre_processing.py - Processing Chunk 171
+2023-01-16 16:13:06,305 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:06,326 - pre_processing.py - temp\chunk_171.csv File Successfully Saved on Disk
+2023-01-16 16:13:06,516 - pre_processing.py - Processing Chunk 172
+2023-01-16 16:13:06,516 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:06,532 - pre_processing.py - temp\chunk_172.csv File Successfully Saved on Disk
+2023-01-16 16:13:06,723 - pre_processing.py - Processing Chunk 173
+2023-01-16 16:13:06,723 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:06,738 - pre_processing.py - temp\chunk_173.csv File Successfully Saved on Disk
+2023-01-16 16:13:06,935 - pre_processing.py - Processing Chunk 174
+2023-01-16 16:13:06,935 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:06,960 - pre_processing.py - temp\chunk_174.csv File Successfully Saved on Disk
+2023-01-16 16:13:07,145 - pre_processing.py - Processing Chunk 175
+2023-01-16 16:13:07,145 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:07,163 - pre_processing.py - temp\chunk_175.csv File Successfully Saved on Disk
+2023-01-16 16:13:07,359 - pre_processing.py - Processing Chunk 176
+2023-01-16 16:13:07,359 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:07,379 - pre_processing.py - temp\chunk_176.csv File Successfully Saved on Disk
+2023-01-16 16:13:07,564 - pre_processing.py - Processing Chunk 177
+2023-01-16 16:13:07,564 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:07,625 - pre_processing.py - temp\chunk_177.csv File Successfully Saved on Disk
+2023-01-16 16:13:07,809 - pre_processing.py - Processing Chunk 178
+2023-01-16 16:13:07,809 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:07,869 - pre_processing.py - temp\chunk_178.csv File Successfully Saved on Disk
+2023-01-16 16:13:08,103 - pre_processing.py - Processing Chunk 179
+2023-01-16 16:13:08,103 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:08,167 - pre_processing.py - temp\chunk_179.csv File Successfully Saved on Disk
+2023-01-16 16:13:08,381 - pre_processing.py - Processing Chunk 180
+2023-01-16 16:13:08,381 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:08,423 - pre_processing.py - temp\chunk_180.csv File Successfully Saved on Disk
+2023-01-16 16:13:08,614 - pre_processing.py - Processing Chunk 181
+2023-01-16 16:13:08,614 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:08,627 - pre_processing.py - temp\chunk_181.csv File Successfully Saved on Disk
+2023-01-16 16:13:08,820 - pre_processing.py - Processing Chunk 182
+2023-01-16 16:13:08,820 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:08,832 - pre_processing.py - temp\chunk_182.csv File Successfully Saved on Disk
+2023-01-16 16:13:09,006 - pre_processing.py - Processing Chunk 183
+2023-01-16 16:13:09,006 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:09,026 - pre_processing.py - temp\chunk_183.csv File Successfully Saved on Disk
+2023-01-16 16:13:09,208 - pre_processing.py - Processing Chunk 184
+2023-01-16 16:13:09,209 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:09,224 - pre_processing.py - temp\chunk_184.csv File Successfully Saved on Disk
+2023-01-16 16:13:09,406 - pre_processing.py - Processing Chunk 185
+2023-01-16 16:13:09,407 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:09,422 - pre_processing.py - temp\chunk_185.csv File Successfully Saved on Disk
+2023-01-16 16:13:09,609 - pre_processing.py - Processing Chunk 186
+2023-01-16 16:13:09,609 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:09,630 - pre_processing.py - temp\chunk_186.csv File Successfully Saved on Disk
+2023-01-16 16:13:09,833 - pre_processing.py - Processing Chunk 187
+2023-01-16 16:13:09,833 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:09,854 - pre_processing.py - temp\chunk_187.csv File Successfully Saved on Disk
+2023-01-16 16:13:10,048 - pre_processing.py - Processing Chunk 188
+2023-01-16 16:13:10,048 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:10,168 - pre_processing.py - temp\chunk_188.csv File Successfully Saved on Disk
+2023-01-16 16:13:10,397 - pre_processing.py - Processing Chunk 189
+2023-01-16 16:13:10,397 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:10,468 - pre_processing.py - temp\chunk_189.csv File Successfully Saved on Disk
+2023-01-16 16:13:10,670 - pre_processing.py - Processing Chunk 190
+2023-01-16 16:13:10,670 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:10,688 - pre_processing.py - temp\chunk_190.csv File Successfully Saved on Disk
+2023-01-16 16:13:10,891 - pre_processing.py - Processing Chunk 191
+2023-01-16 16:13:10,892 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:10,903 - pre_processing.py - temp\chunk_191.csv File Successfully Saved on Disk
+2023-01-16 16:13:11,110 - pre_processing.py - Processing Chunk 192
+2023-01-16 16:13:11,110 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:11,123 - pre_processing.py - temp\chunk_192.csv File Successfully Saved on Disk
+2023-01-16 16:13:11,317 - pre_processing.py - Processing Chunk 193
+2023-01-16 16:13:11,317 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:11,338 - pre_processing.py - temp\chunk_193.csv File Successfully Saved on Disk
+2023-01-16 16:13:11,532 - pre_processing.py - Processing Chunk 194
+2023-01-16 16:13:11,532 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:11,550 - pre_processing.py - temp\chunk_194.csv File Successfully Saved on Disk
+2023-01-16 16:13:11,745 - pre_processing.py - Processing Chunk 195
+2023-01-16 16:13:11,745 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:11,765 - pre_processing.py - temp\chunk_195.csv File Successfully Saved on Disk
+2023-01-16 16:13:12,021 - pre_processing.py - Processing Chunk 196
+2023-01-16 16:13:12,021 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:12,042 - pre_processing.py - temp\chunk_196.csv File Successfully Saved on Disk
+2023-01-16 16:13:12,236 - pre_processing.py - Processing Chunk 197
+2023-01-16 16:13:12,236 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:12,254 - pre_processing.py - temp\chunk_197.csv File Successfully Saved on Disk
+2023-01-16 16:13:12,439 - pre_processing.py - Processing Chunk 198
+2023-01-16 16:13:12,439 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:12,460 - pre_processing.py - temp\chunk_198.csv File Successfully Saved on Disk
+2023-01-16 16:13:12,766 - pre_processing.py - Processing Chunk 199
+2023-01-16 16:13:12,766 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:12,786 - pre_processing.py - temp\chunk_199.csv File Successfully Saved on Disk
+2023-01-16 16:13:12,992 - pre_processing.py - Processing Chunk 200
+2023-01-16 16:13:12,993 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:12,994 - pre_processing.py - temp\chunk_200.csv File Successfully Saved on Disk
+2023-01-16 16:13:13,195 - pre_processing.py - Processing Chunk 201
+2023-01-16 16:13:13,195 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:13,215 - pre_processing.py - temp\chunk_201.csv File Successfully Saved on Disk
+2023-01-16 16:13:13,421 - pre_processing.py - Processing Chunk 202
+2023-01-16 16:13:13,421 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:13,439 - pre_processing.py - temp\chunk_202.csv File Successfully Saved on Disk
+2023-01-16 16:13:13,646 - pre_processing.py - Processing Chunk 203
+2023-01-16 16:13:13,646 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:13,664 - pre_processing.py - temp\chunk_203.csv File Successfully Saved on Disk
+2023-01-16 16:13:13,921 - pre_processing.py - Processing Chunk 204
+2023-01-16 16:13:13,922 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:13,933 - pre_processing.py - temp\chunk_204.csv File Successfully Saved on Disk
+2023-01-16 16:13:14,199 - pre_processing.py - Processing Chunk 205
+2023-01-16 16:13:14,199 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:14,220 - pre_processing.py - temp\chunk_205.csv File Successfully Saved on Disk
+2023-01-16 16:13:14,412 - pre_processing.py - Processing Chunk 206
+2023-01-16 16:13:14,412 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:14,432 - pre_processing.py - temp\chunk_206.csv File Successfully Saved on Disk
+2023-01-16 16:13:14,648 - pre_processing.py - Processing Chunk 207
+2023-01-16 16:13:14,648 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:14,668 - pre_processing.py - temp\chunk_207.csv File Successfully Saved on Disk
+2023-01-16 16:13:14,916 - pre_processing.py - Processing Chunk 208
+2023-01-16 16:13:14,916 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:14,934 - pre_processing.py - temp\chunk_208.csv File Successfully Saved on Disk
+2023-01-16 16:13:15,213 - pre_processing.py - Processing Chunk 209
+2023-01-16 16:13:15,213 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:15,224 - pre_processing.py - temp\chunk_209.csv File Successfully Saved on Disk
+2023-01-16 16:13:15,411 - pre_processing.py - Processing Chunk 210
+2023-01-16 16:13:15,411 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:15,437 - pre_processing.py - temp\chunk_210.csv File Successfully Saved on Disk
+2023-01-16 16:13:15,634 - pre_processing.py - Processing Chunk 211
+2023-01-16 16:13:15,634 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:15,651 - pre_processing.py - temp\chunk_211.csv File Successfully Saved on Disk
+2023-01-16 16:13:15,836 - pre_processing.py - Processing Chunk 212
+2023-01-16 16:13:15,836 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:15,858 - pre_processing.py - temp\chunk_212.csv File Successfully Saved on Disk
+2023-01-16 16:13:16,057 - pre_processing.py - Processing Chunk 213
+2023-01-16 16:13:16,058 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:16,071 - pre_processing.py - temp\chunk_213.csv File Successfully Saved on Disk
+2023-01-16 16:13:16,276 - pre_processing.py - Processing Chunk 214
+2023-01-16 16:13:16,276 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:16,314 - pre_processing.py - temp\chunk_214.csv File Successfully Saved on Disk
+2023-01-16 16:13:16,557 - pre_processing.py - Processing Chunk 215
+2023-01-16 16:13:16,557 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:16,592 - pre_processing.py - temp\chunk_215.csv File Successfully Saved on Disk
+2023-01-16 16:13:16,792 - pre_processing.py - Processing Chunk 216
+2023-01-16 16:13:16,792 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:16,813 - pre_processing.py - temp\chunk_216.csv File Successfully Saved on Disk
+2023-01-16 16:13:17,018 - pre_processing.py - Processing Chunk 217
+2023-01-16 16:13:17,018 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:17,039 - pre_processing.py - temp\chunk_217.csv File Successfully Saved on Disk
+2023-01-16 16:13:17,274 - pre_processing.py - Processing Chunk 218
+2023-01-16 16:13:17,274 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:17,296 - pre_processing.py - temp\chunk_218.csv File Successfully Saved on Disk
+2023-01-16 16:13:17,491 - pre_processing.py - Processing Chunk 219
+2023-01-16 16:13:17,491 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:17,516 - pre_processing.py - temp\chunk_219.csv File Successfully Saved on Disk
+2023-01-16 16:13:17,740 - pre_processing.py - Processing Chunk 220
+2023-01-16 16:13:17,740 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:17,759 - pre_processing.py - temp\chunk_220.csv File Successfully Saved on Disk
+2023-01-16 16:13:17,960 - pre_processing.py - Processing Chunk 221
+2023-01-16 16:13:17,969 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:17,981 - pre_processing.py - temp\chunk_221.csv File Successfully Saved on Disk
+2023-01-16 16:13:18,273 - pre_processing.py - Processing Chunk 222
+2023-01-16 16:13:18,273 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:18,286 - pre_processing.py - temp\chunk_222.csv File Successfully Saved on Disk
+2023-01-16 16:13:18,478 - pre_processing.py - Processing Chunk 223
+2023-01-16 16:13:18,478 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:18,496 - pre_processing.py - temp\chunk_223.csv File Successfully Saved on Disk
+2023-01-16 16:13:18,713 - pre_processing.py - Processing Chunk 224
+2023-01-16 16:13:18,713 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:18,736 - pre_processing.py - temp\chunk_224.csv File Successfully Saved on Disk
+2023-01-16 16:13:18,939 - pre_processing.py - Processing Chunk 225
+2023-01-16 16:13:18,939 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:18,949 - pre_processing.py - temp\chunk_225.csv File Successfully Saved on Disk
+2023-01-16 16:13:19,171 - pre_processing.py - Processing Chunk 226
+2023-01-16 16:13:19,174 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:19,185 - pre_processing.py - temp\chunk_226.csv File Successfully Saved on Disk
+2023-01-16 16:13:19,377 - pre_processing.py - Processing Chunk 227
+2023-01-16 16:13:19,377 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:19,396 - pre_processing.py - temp\chunk_227.csv File Successfully Saved on Disk
+2023-01-16 16:13:19,589 - pre_processing.py - Processing Chunk 228
+2023-01-16 16:13:19,591 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:19,603 - pre_processing.py - temp\chunk_228.csv File Successfully Saved on Disk
+2023-01-16 16:13:19,814 - pre_processing.py - Processing Chunk 229
+2023-01-16 16:13:19,814 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:19,829 - pre_processing.py - temp\chunk_229.csv File Successfully Saved on Disk
+2023-01-16 16:13:20,029 - pre_processing.py - Processing Chunk 230
+2023-01-16 16:13:20,029 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:20,050 - pre_processing.py - temp\chunk_230.csv File Successfully Saved on Disk
+2023-01-16 16:13:20,255 - pre_processing.py - Processing Chunk 231
+2023-01-16 16:13:20,255 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:20,276 - pre_processing.py - temp\chunk_231.csv File Successfully Saved on Disk
+2023-01-16 16:13:20,470 - pre_processing.py - Processing Chunk 232
+2023-01-16 16:13:20,470 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:20,492 - pre_processing.py - temp\chunk_232.csv File Successfully Saved on Disk
+2023-01-16 16:13:20,705 - pre_processing.py - Processing Chunk 233
+2023-01-16 16:13:20,705 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:20,715 - pre_processing.py - temp\chunk_233.csv File Successfully Saved on Disk
+2023-01-16 16:13:20,911 - pre_processing.py - Processing Chunk 234
+2023-01-16 16:13:20,916 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:20,932 - pre_processing.py - temp\chunk_234.csv File Successfully Saved on Disk
+2023-01-16 16:13:21,131 - pre_processing.py - Processing Chunk 235
+2023-01-16 16:13:21,131 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:21,151 - pre_processing.py - temp\chunk_235.csv File Successfully Saved on Disk
+2023-01-16 16:13:21,353 - pre_processing.py - Processing Chunk 236
+2023-01-16 16:13:21,353 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:21,376 - pre_processing.py - temp\chunk_236.csv File Successfully Saved on Disk
+2023-01-16 16:13:21,592 - pre_processing.py - Processing Chunk 237
+2023-01-16 16:13:21,592 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:21,611 - pre_processing.py - temp\chunk_237.csv File Successfully Saved on Disk
+2023-01-16 16:13:21,806 - pre_processing.py - Processing Chunk 238
+2023-01-16 16:13:21,806 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:21,828 - pre_processing.py - temp\chunk_238.csv File Successfully Saved on Disk
+2023-01-16 16:13:22,072 - pre_processing.py - Processing Chunk 239
+2023-01-16 16:13:22,072 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:22,093 - pre_processing.py - temp\chunk_239.csv File Successfully Saved on Disk
+2023-01-16 16:13:22,306 - pre_processing.py - Processing Chunk 240
+2023-01-16 16:13:22,306 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:22,326 - pre_processing.py - temp\chunk_240.csv File Successfully Saved on Disk
+2023-01-16 16:13:22,542 - pre_processing.py - Processing Chunk 241
+2023-01-16 16:13:22,542 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:22,565 - pre_processing.py - temp\chunk_241.csv File Successfully Saved on Disk
+2023-01-16 16:13:22,811 - pre_processing.py - Processing Chunk 242
+2023-01-16 16:13:22,811 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:22,830 - pre_processing.py - temp\chunk_242.csv File Successfully Saved on Disk
+2023-01-16 16:13:23,032 - pre_processing.py - Processing Chunk 243
+2023-01-16 16:13:23,032 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:23,050 - pre_processing.py - temp\chunk_243.csv File Successfully Saved on Disk
+2023-01-16 16:13:23,260 - pre_processing.py - Processing Chunk 244
+2023-01-16 16:13:23,260 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:23,281 - pre_processing.py - temp\chunk_244.csv File Successfully Saved on Disk
+2023-01-16 16:13:23,485 - pre_processing.py - Processing Chunk 245
+2023-01-16 16:13:23,485 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:23,506 - pre_processing.py - temp\chunk_245.csv File Successfully Saved on Disk
+2023-01-16 16:13:23,802 - pre_processing.py - Processing Chunk 246
+2023-01-16 16:13:23,802 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:23,815 - pre_processing.py - temp\chunk_246.csv File Successfully Saved on Disk
+2023-01-16 16:13:24,038 - pre_processing.py - Processing Chunk 247
+2023-01-16 16:13:24,038 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:24,058 - pre_processing.py - temp\chunk_247.csv File Successfully Saved on Disk
+2023-01-16 16:13:24,272 - pre_processing.py - Processing Chunk 248
+2023-01-16 16:13:24,272 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:24,295 - pre_processing.py - temp\chunk_248.csv File Successfully Saved on Disk
+2023-01-16 16:13:24,518 - pre_processing.py - Processing Chunk 249
+2023-01-16 16:13:24,518 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:24,537 - pre_processing.py - temp\chunk_249.csv File Successfully Saved on Disk
+2023-01-16 16:13:24,799 - pre_processing.py - Processing Chunk 250
+2023-01-16 16:13:24,799 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:24,848 - pre_processing.py - temp\chunk_250.csv File Successfully Saved on Disk
+2023-01-16 16:13:25,058 - pre_processing.py - Processing Chunk 251
+2023-01-16 16:13:25,058 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:25,076 - pre_processing.py - temp\chunk_251.csv File Successfully Saved on Disk
+2023-01-16 16:13:25,268 - pre_processing.py - Processing Chunk 252
+2023-01-16 16:13:25,268 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:25,278 - pre_processing.py - temp\chunk_252.csv File Successfully Saved on Disk
+2023-01-16 16:13:25,474 - pre_processing.py - Processing Chunk 253
+2023-01-16 16:13:25,474 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:25,496 - pre_processing.py - temp\chunk_253.csv File Successfully Saved on Disk
+2023-01-16 16:13:25,696 - pre_processing.py - Processing Chunk 254
+2023-01-16 16:13:25,696 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:25,714 - pre_processing.py - temp\chunk_254.csv File Successfully Saved on Disk
+2023-01-16 16:13:25,898 - pre_processing.py - Processing Chunk 255
+2023-01-16 16:13:25,899 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:25,920 - pre_processing.py - temp\chunk_255.csv File Successfully Saved on Disk
+2023-01-16 16:13:26,100 - pre_processing.py - Processing Chunk 256
+2023-01-16 16:13:26,100 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:26,119 - pre_processing.py - temp\chunk_256.csv File Successfully Saved on Disk
+2023-01-16 16:13:26,330 - pre_processing.py - Processing Chunk 257
+2023-01-16 16:13:26,330 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:26,347 - pre_processing.py - temp\chunk_257.csv File Successfully Saved on Disk
+2023-01-16 16:13:26,546 - pre_processing.py - Processing Chunk 258
+2023-01-16 16:13:26,546 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:26,566 - pre_processing.py - temp\chunk_258.csv File Successfully Saved on Disk
+2023-01-16 16:13:26,788 - pre_processing.py - Processing Chunk 259
+2023-01-16 16:13:26,788 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:26,802 - pre_processing.py - temp\chunk_259.csv File Successfully Saved on Disk
+2023-01-16 16:13:26,995 - pre_processing.py - Processing Chunk 260
+2023-01-16 16:13:26,995 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:27,015 - pre_processing.py - temp\chunk_260.csv File Successfully Saved on Disk
+2023-01-16 16:13:27,216 - pre_processing.py - Processing Chunk 261
+2023-01-16 16:13:27,217 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:27,234 - pre_processing.py - temp\chunk_261.csv File Successfully Saved on Disk
+2023-01-16 16:13:27,415 - pre_processing.py - Processing Chunk 262
+2023-01-16 16:13:27,415 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:27,436 - pre_processing.py - temp\chunk_262.csv File Successfully Saved on Disk
+2023-01-16 16:13:27,608 - pre_processing.py - Processing Chunk 263
+2023-01-16 16:13:27,608 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:27,626 - pre_processing.py - temp\chunk_263.csv File Successfully Saved on Disk
+2023-01-16 16:13:27,852 - pre_processing.py - Processing Chunk 264
+2023-01-16 16:13:27,852 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:27,872 - pre_processing.py - temp\chunk_264.csv File Successfully Saved on Disk
+2023-01-16 16:13:28,045 - pre_processing.py - Processing Chunk 265
+2023-01-16 16:13:28,047 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:28,059 - pre_processing.py - temp\chunk_265.csv File Successfully Saved on Disk
+2023-01-16 16:13:28,243 - pre_processing.py - Processing Chunk 266
+2023-01-16 16:13:28,244 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:28,260 - pre_processing.py - temp\chunk_266.csv File Successfully Saved on Disk
+2023-01-16 16:13:28,447 - pre_processing.py - Processing Chunk 267
+2023-01-16 16:13:28,447 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:28,468 - pre_processing.py - temp\chunk_267.csv File Successfully Saved on Disk
+2023-01-16 16:13:28,642 - pre_processing.py - Processing Chunk 268
+2023-01-16 16:13:28,642 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:28,662 - pre_processing.py - temp\chunk_268.csv File Successfully Saved on Disk
+2023-01-16 16:13:28,853 - pre_processing.py - Processing Chunk 269
+2023-01-16 16:13:28,853 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:28,869 - pre_processing.py - temp\chunk_269.csv File Successfully Saved on Disk
+2023-01-16 16:13:29,059 - pre_processing.py - Processing Chunk 270
+2023-01-16 16:13:29,059 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:29,080 - pre_processing.py - temp\chunk_270.csv File Successfully Saved on Disk
+2023-01-16 16:13:29,342 - pre_processing.py - Processing Chunk 271
+2023-01-16 16:13:29,342 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:29,356 - pre_processing.py - temp\chunk_271.csv File Successfully Saved on Disk
+2023-01-16 16:13:29,579 - pre_processing.py - Processing Chunk 272
+2023-01-16 16:13:29,579 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:29,593 - pre_processing.py - temp\chunk_272.csv File Successfully Saved on Disk
+2023-01-16 16:13:29,847 - pre_processing.py - Processing Chunk 273
+2023-01-16 16:13:29,847 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:29,865 - pre_processing.py - temp\chunk_273.csv File Successfully Saved on Disk
+2023-01-16 16:13:30,061 - pre_processing.py - Processing Chunk 274
+2023-01-16 16:13:30,061 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:30,077 - pre_processing.py - temp\chunk_274.csv File Successfully Saved on Disk
+2023-01-16 16:13:30,273 - pre_processing.py - Processing Chunk 275
+2023-01-16 16:13:30,273 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:30,286 - pre_processing.py - temp\chunk_275.csv File Successfully Saved on Disk
+2023-01-16 16:13:30,471 - pre_processing.py - Processing Chunk 276
+2023-01-16 16:13:30,471 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:30,481 - pre_processing.py - temp\chunk_276.csv File Successfully Saved on Disk
+2023-01-16 16:13:30,675 - pre_processing.py - Processing Chunk 277
+2023-01-16 16:13:30,675 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:30,685 - pre_processing.py - temp\chunk_277.csv File Successfully Saved on Disk
+2023-01-16 16:13:30,756 - pre_processing.py - Processing Chunk 278
+2023-01-16 16:13:30,756 - pre_processing.py - Replaced spaces with underscore in column name in la listing
+2023-01-16 16:13:30,775 - pre_processing.py - temp\chunk_278.csv File Successfully Saved on Disk
+2023-01-16 16:13:30,775 - pre_processing.py - All Chunks Created
+2023-01-16 16:13:36,454 - pre_processing.py - All Chunks Combined
+2023-01-16 16:13:37,780 - pre_processing.py - Dropping duplicates on all chunks
+2023-01-16 16:13:37,780 - pre_processing.py - Understanding la_listing
+2023-01-16 16:13:37,780 - pre_processing.py - Calling head() on dataframe
+2023-01-16 16:13:37,780 - pre_processing.py -    listing_id                                              name    host_id  \
+0    11085215                                         _________   57460111   
+1     3230382  Large master bedroom & covered patio; __________   15878447   
+2    18211034                    Comfortable queen bed near LAX  125720858   
+3    12209039                              Single room for rent   38037399   
+4    10339306                      Temple city __________;__;__   52290241   
+
+  host_name  host_response_rate  host_is_superhost  host_total_listings_count  \
+0     Robin                 NaN              False                        3.0   
+1     Betty                 1.0               True                        9.0   
+2     Sally                 1.0              False                        1.0   
+3         _                 1.0              False                        2.0   
+4   Cynthia                 0.0              False                        1.0   
+
+                         street         city neighbourhood_cleansed state  \
+0  ___| CA 91746| United States  Los Angeles     West Puente Valley    CA   
+1  ___| CA 91755| United States  Los Angeles          Monterey Park    CA   
+2  ___| CA 90250| United States  Los Angeles              Hawthorne    CA   
+3  ___| CA 91765| United States  Los Angeles            Diamond Bar    CA   
+4  ___| CA 91780| United States  Los Angeles            Temple City    CA   
+
+         country     latitude   longitude property_type     room_type  \
+0  United States  34.05689088 -117.978845         House  Private room   
+1  United States  34.06032707 -118.121037         House  Private room   
+2  United States  33.92183162 -118.354565     Apartment   Shared room   
+3  United States   34.0275231 -117.809445         House  Private room   
+4  United States  34.09453005 -118.072263         House  Private room   
+
+   accommodates  bathrooms  bedrooms  \
+0           3.0        2.0       1.0   
+1           3.0        1.0       1.0   
+2           1.0        1.0       1.0   
+3           1.0        1.0       1.0   
+4           4.0        1.0       1.0   
+
+                                           amenities  price  minimum_nights  \
+0  TV;Internet;Wireless Internet;Air conditioning...     80               1   
+1  Internet;Wireless Internet;Air conditioning;He...     75               3   
+2  Internet;Wireless Internet;Pool;Kitchen;Heatin...     45               1   
+3                                Family/kid friendly     35               3   
+4                                                NaN     53               1   
+
+   maximum_nights  availability_365 calendar_last_scraped  number_of_reviews  \
+0          1125.0               365                5/2/17                  0   
+1          1125.0               346                5/3/17                 38   
+2          1125.0                52                5/3/17                  0   
+3          1125.0               358                5/3/17                  0   
+4          1125.0               364                5/3/17                  1   
+
+  last_review_date  review_scores_rating  review_scores_accuracy  \
+0              NaN                     0                       0   
+1         12/28/16                    95                      10   
+2              NaN                     0                       0   
+3              NaN                     0                       0   
+4          7/23/16                   100                      10   
+
+   review_scores_cleanliness  review_scores_checkin  \
+0                          0                      0   
+1                          9                      9   
+2                          0                      0   
+3                          0                      0   
+4                         10                     10   
+
+   review_scores_communication  review_scores_location  review_scores_value  \
+0                            0                       0                    0   
+1                           10                      10                    9   
+2                            0                       0                    0   
+3                            0                       0                    0   
+4                           10                      10                   10   
+
+   reviews_per_month  
+0               0.00  
+1               1.11  
+2               0.00  
+3               0.00  
+4               0.11  
+2023-01-16 16:13:37,809 - pre_processing.py - Calling info() on dataframe
+2023-01-16 16:13:37,944 - pre_processing.py - None
+2023-01-16 16:13:37,945 - pre_processing.py - Calling describe() on dataframe
+2023-01-16 16:13:38,069 - pre_processing.py -          listing_id       host_id  host_response_rate  \
+count  5.986500e+04  5.986500e+04        25624.000000   
+mean   2.015361e+07  7.296214e+07            0.938812   
+std    1.238642e+07  8.245401e+07            0.175643   
+min    1.090000e+02  5.900000e+01            0.000000   
+25%    1.074980e+07  1.118240e+07            1.000000   
+50%    1.747889e+07  4.025825e+07            1.000000   
+75%    3.090691e+07  1.048016e+08            1.000000   
+max    4.289341e+07  3.414771e+08            1.000000   
+
+       host_total_listings_count     longitude  accommodates     bathrooms  \
+count               59851.000000  59865.000000  31148.000000  31052.000000   
+mean                    7.762778   -118.327848      3.427090      1.379589   
+std                    26.722869      0.287936      2.479838      0.822825   
+min                     0.000000   -122.420165      1.000000      0.000000   
+25%                     1.000000   -118.423050      2.000000      1.000000   
+50%                     2.000000   -118.343995      2.000000      1.000000   
+75%                     5.000000   -118.256415      4.000000      1.500000   
+max                   855.000000    -73.822491     16.000000      8.000000   
+
+           bedrooms         price  minimum_nights  maximum_nights  \
+count  31148.000000  59865.000000    59865.000000    3.114800e+04   
+mean       1.443175    190.246738        7.283087    2.075917e+05   
+std        0.900095    536.569298       17.982806    2.107470e+07   
+min        1.000000      0.000000        1.000000    1.000000e+00   
+25%        1.000000     68.000000        1.000000    3.000000e+01   
+50%        1.000000    101.000000        2.000000    1.125000e+03   
+75%        2.000000    175.000000        4.000000    1.125000e+03   
+max       10.000000  25000.000000     1000.000000    2.147484e+09   
+
+       availability_365  number_of_reviews  review_scores_rating  \
+count      59865.000000       59865.000000          59865.000000   
+mean         185.105120          21.160144             37.243865   
+std          137.418814          37.592079             46.339941   
+min            0.000000           0.000000              0.000000   
+25%           59.000000           1.000000              0.000000   
+50%          174.000000           6.000000              0.000000   
+75%          334.000000          24.000000             95.000000   
+max          365.000000         735.000000            100.000000   
+
+       review_scores_accuracy  review_scores_cleanliness  \
+count            59865.000000               59865.000000   
+mean                 3.793803                   3.716512   
+std                  4.724398                   4.641641   
+min                  0.000000                   0.000000   
+25%                  0.000000                   0.000000   
+50%                  0.000000                   0.000000   
+75%                 10.000000                   9.000000   
+max                 10.000000                  10.000000   
+
+       review_scores_checkin  review_scores_communication  \
+count           59865.000000                 59865.000000   
+mean                3.851766                     3.855792   
+std                 4.792313                     4.792825   
+min                 0.000000                     0.000000   
+25%                 0.000000                     0.000000   
+50%                 0.000000                     0.000000   
+75%                10.000000                    10.000000   
+max                10.000000                    10.000000   
+
+       review_scores_location  review_scores_value  reviews_per_month  
+count            59865.000000         59865.000000       59865.000000  
+mean                 3.789109             3.737108           1.452649  
+std                  4.719919             4.664246           1.923791  
+min                  0.000000             0.000000           0.000000  
+25%                  0.000000             0.000000           0.060000  
+50%                  0.000000             0.000000           0.670000  
+75%                 10.000000             9.000000           2.200000  
+max                 10.000000            10.000000          90.000000  
+2023-01-16 16:13:38,069 - pre_processing.py - Understanding reviews
+2023-01-16 16:13:38,069 - pre_processing.py - Calling head() on dataframe
+2023-01-16 16:13:38,069 - pre_processing.py -   listing_id        id        date reviewer_id reviewer_name  \
+0    9451156  59980296  2016-01-17    29998598        Tricia   
+1    9451156  60556125  2016-01-24    50784520          Phil   
+2    9451156  79640244  2016-06-13     5077233      Frederic   
+3    9451156  89439451  2016-07-28    85384745       Rachele   
+4    7904397  46430802  2015-09-10    42670228            Qi   
+
+                                            comments  
+0  Good location. 15 minute walk to the beach or ...  
+1  Quick one night stay, nice place. Has everythi...  
+2  We had a great time in Santa Monica at the apa...  
+3  Our overall stay was fantastic! Would definite...  
+4  It was a nice experience in Kelly's house. Kel...  
+2023-01-16 16:13:38,084 - pre_processing.py - Calling info() on dataframe
+2023-01-16 16:13:38,550 - pre_processing.py - None
+2023-01-16 16:13:38,550 - pre_processing.py - Calling describe() on dataframe
+2023-01-16 16:13:40,738 - pre_processing.py -         listing_id        id        date  reviewer_id reviewer_name  \
+count       653127    653127      653127       653127        653126   
+unique       23964    653127        2626       531201         74944   
+top           8357  59980296  2017-03-26      3694759       Michael   
+freq           735         1        2250           72          5942   
+
+                                                 comments  
+count                                              652047  
+unique                                             636225  
+top     The host canceled this reservation the day bef...  
+freq                                                 1548  
+2023-01-16 16:13:40,738 - pre_processing.py - Saving file pre_processed\\la_listings.csv
+2023-01-16 16:13:50,132 - pre_processing.py - pre_processed\\la_listings.csvFile Successfully Saved on Disk
+2023-01-16 16:13:50,132 - pre_processing.py - Saving file pre_processed\\la_airbnb-reviews.csv
+2023-01-16 16:13:51,437 - pre_processing.py - pre_processed\\la_airbnb-reviews.csvFile Successfully Saved on Disk
+2023-01-16 16:13:51,437 - pre_processing.py - Dropping all temp\ folder files
+2023-01-16 16:13:51,523 - pre_processing.py - All Chunks in temp\ folder has dropped
+2023-01-16 16:13:51,711 - processing.py - Reading Preprocessed data from pre_processed\\la_listings.csv
+2023-01-16 16:13:51,711 - pre_processing.py - Reading from file pre_processed\\la_listings.csv
+2023-01-16 16:13:55,213 - processing.py - Reading Preprocessed data from pre_processed\\la_airbnb-reviews.csv
+2023-01-16 16:13:55,213 - pre_processing.py - Reading from file pre_processed\\la_airbnb-reviews.csv
+2023-01-16 16:13:56,499 - processing.py - Merged two datasets with outer on column listing_id
+2023-01-16 16:13:56,499 - processing.py - checking column counts for equality
+2023-01-16 16:13:56,499 - processing.py - Both DataFrames have different number of rows. 59865 and 689028
+2023-01-16 16:13:56,499 - pre_processing.py - Calling head() on dataframe
+2023-01-16 16:13:56,563 - pre_processing.py - Calling info() on dataframe
+2023-01-16 16:13:57,973 - pre_processing.py - None
+2023-01-16 16:13:57,973 - pre_processing.py - Calling describe() on dataframe
+2023-01-16 16:13:58,997 - pre_processing.py -          listing_id       host_id  host_response_rate  \
+count  6.890280e+05  6.890280e+05       641362.000000   
+mean   7.781528e+06  2.573831e+07            0.977103   
+std    7.138974e+06  3.657383e+07            0.082351   
+min    1.090000e+02  5.900000e+01            0.000000   
+25%    2.228693e+06  3.839102e+06            1.000000   
+50%    6.199137e+06  1.281287e+07            1.000000   
+75%    1.192726e+07  3.441099e+07            1.000000   
+max    4.289341e+07  3.414771e+08            1.000000   
+
+       host_total_listings_count      longitude   accommodates      bathrooms  \
+count              688901.000000  689028.000000  660311.000000  657857.000000   
+mean                    4.610272    -118.366627       3.438436       1.268925   
+std                    12.219996       0.305149       2.268012       0.651088   
+min                     0.000000    -122.420165       1.000000       0.000000   
+25%                     1.000000    -118.442702       2.000000       1.000000   
+50%                     2.000000    -118.347969       2.000000       1.000000   
+75%                     5.000000    -118.273968       4.000000       1.000000   
+max                   855.000000     -73.822491      16.000000       8.000000   
+
+           bedrooms          price  minimum_nights  maximum_nights  \
+count  660311.00000  689028.000000   689028.000000    6.603110e+05   
+mean        1.32682     134.359527        2.747417    6.572440e+04   
+std         0.72263     183.288717        7.554373    1.181855e+07   
+min         1.00000       0.000000        1.000000    1.000000e+00   
+25%         1.00000      75.000000        1.000000    3.000000e+01   
+50%         1.00000     100.000000        1.000000    1.125000e+03   
+75%         1.00000     150.000000        2.000000    1.125000e+03   
+max        10.00000   25000.000000     1000.000000    2.147484e+09   
+
+       availability_365  number_of_reviews  review_scores_rating  \
+count     689028.000000      689028.000000         689028.000000   
+mean         223.732644          87.374356             89.572669   
+std          118.461451          84.801830             21.613494   
+min            0.000000           0.000000              0.000000   
+25%          115.000000          28.000000             92.000000   
+50%          268.000000          63.000000             95.000000   
+75%          329.000000         121.000000             98.000000   
+max          365.000000         735.000000            100.000000   
+
+       review_scores_accuracy  review_scores_cleanliness  \
+count           689028.000000              689028.000000   
+mean                 9.171034                   9.004088   
+std                  2.225347                   2.219960   
+min                  0.000000                   0.000000   
+25%                  9.000000                   9.000000   
+50%                 10.000000                  10.000000   
+75%                 10.000000                  10.000000   
+max                 10.000000                  10.000000   
+
+       review_scores_checkin  review_scores_communication  \
+count          689028.000000                689028.000000   
+mean                9.316441                     9.315375   
+std                 2.233588                     2.233622   
+min                 0.000000                     0.000000   
+25%                10.000000                    10.000000   
+50%                10.000000                    10.000000   
+75%                10.000000                    10.000000   
+max                10.000000                    10.000000   
+
+       review_scores_location  review_scores_value  reviews_per_month  \
+count           689028.000000        689028.000000      689028.000000   
+mean                 9.125014             9.014420           3.419534   
+std                  2.224788             2.201695           2.362645   
+min                  0.000000             0.000000           0.000000   
+25%                  9.000000             9.000000           1.580000   
+50%                 10.000000            10.000000           3.090000   
+75%                 10.000000            10.000000           4.840000   
+max                 10.000000            10.000000          90.000000   
+
+                 id   reviewer_id  
+count  6.531270e+05  6.531270e+05  
+mean   8.047238e+07  3.692219e+07  
+std    4.251533e+07  3.230193e+07  
+min    3.451000e+03  2.000000e+00  
+25%    4.529795e+07  9.802621e+06  
+50%    8.152044e+07  2.780854e+07  
+75%    1.170893e+08  5.655602e+07  
+max    1.493450e+08  1.284374e+08  
+2023-01-16 16:13:59,007 - processing.py - ['listing_id', 'name', 'host_id', 'host_name', 'host_response_rate', 'host_is_superhost', 'host_total_listings_count', 'street', 'city', 'neighbourhood_cleansed', 'state', 'country', 'latitude', 'longitude', 'property_type', 'room_type', 'accommodates', 'bathrooms', 'bedrooms', 'amenities', 'price', 'minimum_nights', 'maximum_nights', 'availability_365', 'calendar_last_scraped', 'number_of_reviews', 'last_review_date', 'review_scores_rating', 'review_scores_accuracy', 'review_scores_cleanliness', 'review_scores_checkin', 'review_scores_communication', 'review_scores_location', 'review_scores_value', 'reviews_per_month', 'id', 'date', 'reviewer_id', 'reviewer_name', 'comments']
+2023-01-16 16:13:59,007 - processing.py - ['day', 'month', 'year']
+2023-01-16 16:13:59,639 - processing.py - Following are the new added columns
+2023-01-16 16:13:59,761 - processing.py -    day  month  year  host_response_rate
+0  NaN    NaN   NaN                 NaN
+1  NaN    NaN   NaN                 1.0
+2  NaN    NaN   NaN                 1.0
+3  NaN    NaN   NaN                 1.0
+4  NaN    NaN   NaN                 1.0
+2023-01-16 16:14:00,619 - processing.py -  Missing value updated for null rows in host_response_rate 
+2023-01-16 16:14:00,736 - processing.py -     day  month    year  host_response_rate
+0   NaN    NaN     NaN                 NaN
+1  16.0    9.0  2014.0                 1.0
+2  18.0    1.0  2015.0                 1.0
+3  10.0    8.0  2015.0                 1.0
+4   7.0    2.0  2015.0                 1.0
+2023-01-16 16:14:01,289 - processing.py - keys of fact {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:01,291 - processing.py - Column id defined as primary_key
+2023-01-16 16:14:01,301 - processing.py - Data type: float64
+2023-01-16 16:14:01,694 - processing.py - Fact airbnb_reviews duplicates dropped for column id
+2023-01-16 16:14:01,694 - processing.py - Fact airbnb_reviews null dropped for column id
+2023-01-16 16:14:01,694 - processing.py - Column listing_id defined as forign_key
+2023-01-16 16:14:01,784 - processing.py - Fact airbnb_reviews null dropped for column listing_id
+2023-01-16 16:14:01,784 - processing.py - Column host_id defined as forign_key
+2023-01-16 16:14:01,852 - processing.py - Fact airbnb_reviews null dropped for column host_id
+2023-01-16 16:14:01,852 - processing.py - Column date defined as forign_key
+2023-01-16 16:14:01,858 - processing.py - Converting NaT to NaN for date
+2023-01-16 16:14:02,006 - processing.py - Fact airbnb_reviews null dropped for column date
+2023-01-16 16:14:02,006 - processing.py - Column reviewer_id defined as forign_key
+2023-01-16 16:14:02,083 - processing.py - Fact airbnb_reviews null dropped for column reviewer_id
+2023-01-16 16:14:02,139 - processing.py - keys of fact {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:02,140 - processing.py - Fact Column id defined as primary_key
+2023-01-16 16:14:02,140 - processing.py - Fact Column listing_id defined as forign_key
+2023-01-16 16:14:02,140 - processing.py - Column listing_idExist in dataframe
+2023-01-16 16:14:02,358 - processing.py - Dim listing duplicates dropped for column listing_id as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:02,359 - processing.py - Dim listing null dropped for column listing_id as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:02,359 - processing.py - Fact Column host_id defined as forign_key
+2023-01-16 16:14:02,359 - processing.py - Fact Column date defined as forign_key
+2023-01-16 16:14:02,360 - processing.py - Fact Column reviewer_id defined as forign_key
+2023-01-16 16:14:02,396 - processing.py - keys of fact {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:02,396 - processing.py - Fact Column id defined as primary_key
+2023-01-16 16:14:02,396 - processing.py - Fact Column listing_id defined as forign_key
+2023-01-16 16:14:02,396 - processing.py - Fact Column host_id defined as forign_key
+2023-01-16 16:14:02,397 - processing.py - Column host_idExist in dataframe
+2023-01-16 16:14:02,441 - processing.py - Dim host duplicates dropped for column host_id as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:02,441 - processing.py - Dim host null dropped for column host_id as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:02,442 - processing.py - Fact Column date defined as forign_key
+2023-01-16 16:14:02,442 - processing.py - Fact Column reviewer_id defined as forign_key
+2023-01-16 16:14:02,446 - processing.py - keys of fact {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:02,446 - processing.py - Fact Column id defined as primary_key
+2023-01-16 16:14:02,446 - processing.py - Fact Column listing_id defined as forign_key
+2023-01-16 16:14:02,447 - processing.py - Fact Column host_id defined as forign_key
+2023-01-16 16:14:02,447 - processing.py - Fact Column date defined as forign_key
+2023-01-16 16:14:02,447 - processing.py - Column dateExist in dataframe
+2023-01-16 16:14:02,448 - processing.py - Converting NaT to NaN for date
+2023-01-16 16:14:02,516 - processing.py - Dim date duplicates dropped for column date as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:02,516 - processing.py - Dim date null dropped for column date as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:02,516 - processing.py - Fact Column reviewer_id defined as forign_key
+2023-01-16 16:14:02,518 - processing.py - keys of fact {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:02,518 - processing.py - Fact Column id defined as primary_key
+2023-01-16 16:14:02,518 - processing.py - Fact Column listing_id defined as forign_key
+2023-01-16 16:14:02,518 - processing.py - Fact Column host_id defined as forign_key
+2023-01-16 16:14:02,519 - processing.py - Fact Column date defined as forign_key
+2023-01-16 16:14:02,519 - processing.py - Fact Column reviewer_id defined as forign_key
+2023-01-16 16:14:02,519 - processing.py - Column reviewer_idExist in dataframe
+2023-01-16 16:14:02,625 - processing.py - Dim reviewer duplicates dropped for column reviewer_id as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:02,625 - processing.py - Dim reviewer null dropped for column reviewer_id as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:02,669 - processing.py - table name: airbnb_reviews
+2023-01-16 16:14:02,670 - processing.py - table dict: {'id': 'int64', 'listing_id': 'int64', 'host_id': 'int64', 'date': 'date', 'reviewer_id': 'int64', 'price': 'float64', 'comments': 'str'}
+2023-01-16 16:14:02,670 - processing.py - working on :id
+2023-01-16 16:14:02,670 - processing.py - For fact: airbnb_reviews Changing dataype of column: id from: float64 to int64
+2023-01-16 16:14:02,682 - processing.py - working on :listing_id
+2023-01-16 16:14:02,682 - processing.py - For fact: airbnb_reviews Changing dataype of column: listing_id from: int64 to int64
+2023-01-16 16:14:02,696 - processing.py - working on :host_id
+2023-01-16 16:14:02,697 - processing.py - For fact: airbnb_reviews Changing dataype of column: host_id from: int64 to int64
+2023-01-16 16:14:02,707 - processing.py - working on :date
+2023-01-16 16:14:02,707 - processing.py - For fact: airbnb_reviews Changing dataype of column: date from: datetime64[ns] to date
+2023-01-16 16:14:02,718 - processing.py - working on :reviewer_id
+2023-01-16 16:14:02,718 - processing.py - For fact: airbnb_reviews Changing dataype of column: reviewer_id from: float64 to int64
+2023-01-16 16:14:02,724 - processing.py - working on :price
+2023-01-16 16:14:02,724 - processing.py - For fact: airbnb_reviews Changing dataype of column: price from: int64 to float64
+2023-01-16 16:14:02,729 - processing.py - working on :comments
+2023-01-16 16:14:02,729 - processing.py - For fact: airbnb_reviews Changing dataype of column: comments from: object to str
+2023-01-16 16:14:02,843 - processing.py - table name: listing
+2023-01-16 16:14:02,843 - processing.py - table dict: {'listing_id': 'int64', 'name': 'str', 'street': 'str', 'city': 'str', 'neighbourhood_cleansed': 'str', 'state': 'str', 'country': 'str', 'latitude': 'float64', 'longitude': 'float64', 'property_type': 'str', 'room_type': 'str', 'accommodates': 'float64', 'bathrooms': 'float64', 'bedrooms': 'float64', 'amenities': 'str', 'minimum_nights': 'str', 'maximum_nights': 'str', 'availability_365': 'int64', 'calendar_last_scraped': 'str', 'number_of_reviews': 'int64', 'last_review_date': 'str', 'review_scores_rating': 'int64', 'review_scores_accuracy': 'int64', 'review_scores_cleanliness': 'int64', 'review_scores_checkin': 'int64', 'review_scores_communication': 'int64', 'review_scores_location': 'int64', 'review_scores_value': 'int64', 'reviews_per_month': 'float64'}
+2023-01-16 16:14:02,844 - processing.py - working on :listing_id
+2023-01-16 16:14:02,844 - processing.py - For fact: listing Changing dataype of column: listing_id from: int64 to int64
+2023-01-16 16:14:02,846 - processing.py - working on :name
+2023-01-16 16:14:02,846 - processing.py - For fact: listing Changing dataype of column: name from: object to str
+2023-01-16 16:14:02,860 - processing.py - working on :street
+2023-01-16 16:14:02,861 - processing.py - For fact: listing Changing dataype of column: street from: object to str
+2023-01-16 16:14:02,882 - processing.py - working on :city
+2023-01-16 16:14:02,883 - processing.py - For fact: listing Changing dataype of column: city from: object to str
+2023-01-16 16:14:02,895 - processing.py - working on :neighbourhood_cleansed
+2023-01-16 16:14:02,895 - processing.py - For fact: listing Changing dataype of column: neighbourhood_cleansed from: object to str
+2023-01-16 16:14:02,908 - processing.py - working on :state
+2023-01-16 16:14:02,908 - processing.py - For fact: listing Changing dataype of column: state from: object to str
+2023-01-16 16:14:02,917 - processing.py - working on :country
+2023-01-16 16:14:02,918 - processing.py - For fact: listing Changing dataype of column: country from: object to str
+2023-01-16 16:14:02,926 - processing.py - working on :latitude
+2023-01-16 16:14:02,926 - processing.py - For fact: listing Changing dataype of column: latitude from: object to float64
+2023-01-16 16:14:02,926 - processing.py - **************************************************
+2023-01-16 16:14:02,927 - processing.py - could not convert string to float: ''
+2023-01-16 16:14:02,927 - processing.py - Failed: For fact: listing Changing dataype of column: latitude from: object to float64 keeping original type
+2023-01-16 16:14:02,927 - processing.py - **************************************************
+2023-01-16 16:14:02,927 - processing.py - working on :longitude
+2023-01-16 16:14:02,927 - processing.py - For fact: listing Changing dataype of column: longitude from: float64 to float64
+2023-01-16 16:14:02,930 - processing.py - working on :property_type
+2023-01-16 16:14:02,930 - processing.py - For fact: listing Changing dataype of column: property_type from: object to str
+2023-01-16 16:14:02,937 - processing.py - working on :room_type
+2023-01-16 16:14:02,938 - processing.py - For fact: listing Changing dataype of column: room_type from: object to str
+2023-01-16 16:14:02,946 - processing.py - working on :accommodates
+2023-01-16 16:14:02,946 - processing.py - For fact: listing Changing dataype of column: accommodates from: float64 to float64
+2023-01-16 16:14:02,949 - processing.py - working on :bathrooms
+2023-01-16 16:14:02,949 - processing.py - For fact: listing Changing dataype of column: bathrooms from: float64 to float64
+2023-01-16 16:14:02,951 - processing.py - working on :bedrooms
+2023-01-16 16:14:02,951 - processing.py - For fact: listing Changing dataype of column: bedrooms from: float64 to float64
+2023-01-16 16:14:02,953 - processing.py - working on :amenities
+2023-01-16 16:14:02,954 - processing.py - For fact: listing Changing dataype of column: amenities from: object to str
+2023-01-16 16:14:02,963 - processing.py - working on :minimum_nights
+2023-01-16 16:14:02,963 - processing.py - For fact: listing Changing dataype of column: minimum_nights from: int64 to str
+2023-01-16 16:14:03,011 - processing.py - working on :maximum_nights
+2023-01-16 16:14:03,015 - processing.py - For fact: listing Changing dataype of column: maximum_nights from: float64 to str
+2023-01-16 16:14:03,053 - processing.py - working on :availability_365
+2023-01-16 16:14:03,053 - processing.py - For fact: listing Changing dataype of column: availability_365 from: int64 to int64
+2023-01-16 16:14:03,053 - processing.py - working on :calendar_last_scraped
+2023-01-16 16:14:03,053 - processing.py - For fact: listing Changing dataype of column: calendar_last_scraped from: object to str
+2023-01-16 16:14:03,053 - processing.py - working on :number_of_reviews
+2023-01-16 16:14:03,053 - processing.py - For fact: listing Changing dataype of column: number_of_reviews from: int64 to int64
+2023-01-16 16:14:03,069 - processing.py - working on :last_review_date
+2023-01-16 16:14:03,069 - processing.py - For fact: listing Changing dataype of column: last_review_date from: object to str
+2023-01-16 16:14:03,078 - processing.py - working on :review_scores_rating
+2023-01-16 16:14:03,078 - processing.py - For fact: listing Changing dataype of column: review_scores_rating from: int64 to int64
+2023-01-16 16:14:03,079 - processing.py - working on :review_scores_accuracy
+2023-01-16 16:14:03,079 - processing.py - For fact: listing Changing dataype of column: review_scores_accuracy from: int64 to int64
+2023-01-16 16:14:03,079 - processing.py - working on :review_scores_cleanliness
+2023-01-16 16:14:03,079 - processing.py - For fact: listing Changing dataype of column: review_scores_cleanliness from: int64 to int64
+2023-01-16 16:14:03,079 - processing.py - working on :review_scores_checkin
+2023-01-16 16:14:03,079 - processing.py - For fact: listing Changing dataype of column: review_scores_checkin from: int64 to int64
+2023-01-16 16:14:03,079 - processing.py - working on :review_scores_communication
+2023-01-16 16:14:03,079 - processing.py - For fact: listing Changing dataype of column: review_scores_communication from: int64 to int64
+2023-01-16 16:14:03,079 - processing.py - working on :review_scores_location
+2023-01-16 16:14:03,079 - processing.py - For fact: listing Changing dataype of column: review_scores_location from: int64 to int64
+2023-01-16 16:14:03,079 - processing.py - working on :review_scores_value
+2023-01-16 16:14:03,079 - processing.py - For fact: listing Changing dataype of column: review_scores_value from: int64 to int64
+2023-01-16 16:14:03,079 - processing.py - working on :reviews_per_month
+2023-01-16 16:14:03,079 - processing.py - For fact: listing Changing dataype of column: reviews_per_month from: float64 to float64
+2023-01-16 16:14:03,079 - processing.py - table name: host
+2023-01-16 16:14:03,079 - processing.py - table dict: {'host_id': 'int64', 'host_name': 'str', 'host_response_rate': 'float64', 'host_is_superhost': 'bool', 'host_total_listings_count': 'float64'}
+2023-01-16 16:14:03,079 - processing.py - working on :host_id
+2023-01-16 16:14:03,079 - processing.py - For fact: host Changing dataype of column: host_id from: int64 to int64
+2023-01-16 16:14:03,079 - processing.py - working on :host_name
+2023-01-16 16:14:03,079 - processing.py - For fact: host Changing dataype of column: host_name from: object to str
+2023-01-16 16:14:03,096 - processing.py - working on :host_response_rate
+2023-01-16 16:14:03,096 - processing.py - For fact: host Changing dataype of column: host_response_rate from: float64 to float64
+2023-01-16 16:14:03,096 - processing.py - working on :host_is_superhost
+2023-01-16 16:14:03,096 - processing.py - For fact: host Changing dataype of column: host_is_superhost from: bool to bool
+2023-01-16 16:14:03,096 - processing.py - working on :host_total_listings_count
+2023-01-16 16:14:03,096 - processing.py - For fact: host Changing dataype of column: host_total_listings_count from: float64 to float64
+2023-01-16 16:14:03,096 - processing.py - table name: date
+2023-01-16 16:14:03,096 - processing.py - table dict: {'date': 'date', 'day': 'int64', 'month': 'int64', 'year': 'int64'}
+2023-01-16 16:14:03,096 - processing.py - working on :date
+2023-01-16 16:14:03,096 - processing.py - For fact: date Changing dataype of column: date from: datetime64[ns] to date
+2023-01-16 16:14:03,096 - processing.py - working on :day
+2023-01-16 16:14:03,096 - processing.py - For fact: date Changing dataype of column: day from: float64 to int64
+2023-01-16 16:14:03,096 - processing.py - working on :month
+2023-01-16 16:14:03,096 - processing.py - For fact: date Changing dataype of column: month from: float64 to int64
+2023-01-16 16:14:03,096 - processing.py - working on :year
+2023-01-16 16:14:03,096 - processing.py - For fact: date Changing dataype of column: year from: float64 to int64
+2023-01-16 16:14:03,096 - processing.py - table name: reviewer
+2023-01-16 16:14:03,096 - processing.py - table dict: {'reviewer_id': 'int64', 'reviewer_name': 'str'}
+2023-01-16 16:14:03,096 - processing.py - working on :reviewer_id
+2023-01-16 16:14:03,096 - processing.py - For fact: reviewer Changing dataype of column: reviewer_id from: float64 to int64
+2023-01-16 16:14:03,096 - processing.py - working on :reviewer_name
+2023-01-16 16:14:03,096 - processing.py - For fact: reviewer Changing dataype of column: reviewer_name from: object to str
+2023-01-16 16:14:03,357 - pre_processing.py - Saving file processed\\airbnb_reviews
+2023-01-16 16:14:16,766 - pre_processing.py - processed\\airbnb_reviews.csvFile Successfully Saved on Disk
+2023-01-16 16:14:16,766 - pre_processing.py - Saving file processed\\listing
+2023-01-16 16:14:18,885 - pre_processing.py - processed\\listing.csvFile Successfully Saved on Disk
+2023-01-16 16:14:18,885 - pre_processing.py - Saving file processed\\host
+2023-01-16 16:14:18,997 - pre_processing.py - processed\\host.csvFile Successfully Saved on Disk
+2023-01-16 16:14:18,997 - pre_processing.py - Saving file processed\\date
+2023-01-16 16:14:19,006 - pre_processing.py - processed\\date.csvFile Successfully Saved on Disk
+2023-01-16 16:14:19,006 - pre_processing.py - Saving file processed\\reviewer
+2023-01-16 16:14:19,836 - pre_processing.py - processed\\reviewer.csvFile Successfully Saved on Disk
+2023-01-16 16:14:20,174 - data_quality_checks.py - Reading processed data for table airbnb_reviews
+2023-01-16 16:14:20,174 - pre_processing.py - Reading from file processed\\airbnb_reviews.csv
+2023-01-16 16:14:23,899 - data_quality_checks.py - Reading processed data for table listing
+2023-01-16 16:14:23,899 - pre_processing.py - Reading from file processed\\listing.csv
+2023-01-16 16:14:24,502 - data_quality_checks.py - Reading processed data for table host
+2023-01-16 16:14:24,502 - pre_processing.py - Reading from file processed\\host.csv
+2023-01-16 16:14:24,544 - data_quality_checks.py - Reading processed data for table date
+2023-01-16 16:14:24,544 - pre_processing.py - Reading from file processed\\date.csv
+2023-01-16 16:14:24,544 - data_quality_checks.py - Reading processed data for table reviewer
+2023-01-16 16:14:24,544 - pre_processing.py - Reading from file processed\\reviewer.csv
+2023-01-16 16:14:24,769 - data_quality_checks.py - Dictionary columns exist in table airbnb_reviews
+2023-01-16 16:14:24,769 - data_quality_checks.py - Dictionary columns exist in table listing
+2023-01-16 16:14:24,769 - data_quality_checks.py - Dictionary columns exist in table host
+2023-01-16 16:14:24,769 - data_quality_checks.py - Dictionary columns exist in table date
+2023-01-16 16:14:24,769 - data_quality_checks.py - Dictionary columns exist in table reviewer
+2023-01-16 16:14:24,769 - data_quality_checks.py - Dictionary column order is maintained in airbnb_reviews
+2023-01-16 16:14:24,769 - data_quality_checks.py - Dictionary column order is maintained in listing
+2023-01-16 16:14:24,769 - data_quality_checks.py - Dictionary column order is maintained in host
+2023-01-16 16:14:24,769 - data_quality_checks.py - Dictionary column order is maintained in date
+2023-01-16 16:14:24,769 - data_quality_checks.py - Dictionary column order is maintained in reviewer
+2023-01-16 16:14:24,770 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:24,770 - data_quality_checks.py - Table: airbnb_reviews Column id defined as primary_key
+2023-01-16 16:14:24,770 - data_quality_checks.py - Column id Exist in table airbnb_reviews
+2023-01-16 16:14:24,770 - data_quality_checks.py - Table airbnb_reviews does not have nulls in id as fact airbnb_reviews has defined it as primary_key
+2023-01-16 16:14:24,770 - data_quality_checks.py - Table: airbnb_reviews Column listing_id defined as forign_key
+2023-01-16 16:14:24,770 - data_quality_checks.py - Column listing_id Exist in table airbnb_reviews
+2023-01-16 16:14:24,770 - data_quality_checks.py - Table airbnb_reviews does not have nulls in listing_id as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:24,770 - data_quality_checks.py - Table: airbnb_reviews Column host_id defined as forign_key
+2023-01-16 16:14:24,770 - data_quality_checks.py - Column host_id Exist in table airbnb_reviews
+2023-01-16 16:14:24,770 - data_quality_checks.py - Table airbnb_reviews does not have nulls in host_id as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:24,770 - data_quality_checks.py - Table: airbnb_reviews Column date defined as forign_key
+2023-01-16 16:14:24,770 - data_quality_checks.py - Column date Exist in table airbnb_reviews
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table airbnb_reviews does not have nulls in date as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: airbnb_reviews Column reviewer_id defined as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Column reviewer_id Exist in table airbnb_reviews
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table airbnb_reviews does not have nulls in reviewer_id as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: listing Column id defined as primary_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: listing Column listing_id defined as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Column listing_id Exist in table listing
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table listing does not have nulls in listing_id as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: listing Column host_id defined as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: listing Column date defined as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: listing Column reviewer_id defined as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: host Column id defined as primary_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: host Column listing_id defined as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: host Column host_id defined as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Column host_id Exist in table host
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table host does not have nulls in host_id as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: host Column date defined as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: host Column reviewer_id defined as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: date Column id defined as primary_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: date Column listing_id defined as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: date Column host_id defined as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: date Column date defined as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Column date Exist in table date
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table date does not have nulls in date as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: date Column reviewer_id defined as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: reviewer Column id defined as primary_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: reviewer Column listing_id defined as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: reviewer Column host_id defined as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: reviewer Column date defined as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: reviewer Column reviewer_id defined as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Column reviewer_id Exist in table reviewer
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table reviewer does not have nulls in reviewer_id as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:24,790 - data_quality_checks.py - Table: airbnb_reviews Column id defined as primary_key
+2023-01-16 16:14:24,790 - data_quality_checks.py - Column id Exist in table airbnb_reviews
+2023-01-16 16:14:24,811 - data_quality_checks.py - Table airbnb_reviews does not have duplicates in id as fact airbnb_reviews has defined it as primary_key
+2023-01-16 16:14:24,818 - data_quality_checks.py - Table: airbnb_reviews Column listing_id defined as forign_key
+2023-01-16 16:14:24,818 - data_quality_checks.py - Column listing_id Exist in table airbnb_reviews
+2023-01-16 16:14:24,818 - data_quality_checks.py - Table: airbnb_reviews Column host_id defined as forign_key
+2023-01-16 16:14:24,818 - data_quality_checks.py - Column host_id Exist in table airbnb_reviews
+2023-01-16 16:14:24,818 - data_quality_checks.py - Table: airbnb_reviews Column date defined as forign_key
+2023-01-16 16:14:24,818 - data_quality_checks.py - Column date Exist in table airbnb_reviews
+2023-01-16 16:14:24,818 - data_quality_checks.py - Table: airbnb_reviews Column reviewer_id defined as forign_key
+2023-01-16 16:14:24,818 - data_quality_checks.py - Column reviewer_id Exist in table airbnb_reviews
+2023-01-16 16:14:24,818 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:24,818 - data_quality_checks.py - Table: listing Column id defined as primary_key
+2023-01-16 16:14:24,818 - data_quality_checks.py - Table: listing Column listing_id defined as forign_key
+2023-01-16 16:14:24,818 - data_quality_checks.py - Column listing_id Exist in table listing
+2023-01-16 16:14:24,818 - data_quality_checks.py - Table listing does not have duplicates in listing_id as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:24,818 - data_quality_checks.py - Table: listing Column host_id defined as forign_key
+2023-01-16 16:14:24,818 - data_quality_checks.py - Table: listing Column date defined as forign_key
+2023-01-16 16:14:24,820 - data_quality_checks.py - Table: listing Column reviewer_id defined as forign_key
+2023-01-16 16:14:24,820 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:24,820 - data_quality_checks.py - Table: host Column id defined as primary_key
+2023-01-16 16:14:24,820 - data_quality_checks.py - Table: host Column listing_id defined as forign_key
+2023-01-16 16:14:24,820 - data_quality_checks.py - Table: host Column host_id defined as forign_key
+2023-01-16 16:14:24,820 - data_quality_checks.py - Column host_id Exist in table host
+2023-01-16 16:14:24,820 - data_quality_checks.py - Table host does not have duplicates in host_id as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:24,820 - data_quality_checks.py - Table: host Column date defined as forign_key
+2023-01-16 16:14:24,820 - data_quality_checks.py - Table: host Column reviewer_id defined as forign_key
+2023-01-16 16:14:24,820 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:24,820 - data_quality_checks.py - Table: date Column id defined as primary_key
+2023-01-16 16:14:24,820 - data_quality_checks.py - Table: date Column listing_id defined as forign_key
+2023-01-16 16:14:24,820 - data_quality_checks.py - Table: date Column host_id defined as forign_key
+2023-01-16 16:14:24,820 - data_quality_checks.py - Table: date Column date defined as forign_key
+2023-01-16 16:14:24,820 - data_quality_checks.py - Column date Exist in table date
+2023-01-16 16:14:24,820 - data_quality_checks.py - Table date does not have duplicates in date as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:24,820 - data_quality_checks.py - Table: date Column reviewer_id defined as forign_key
+2023-01-16 16:14:24,820 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:24,820 - data_quality_checks.py - Table: reviewer Column id defined as primary_key
+2023-01-16 16:14:24,820 - data_quality_checks.py - Table: reviewer Column listing_id defined as forign_key
+2023-01-16 16:14:24,820 - data_quality_checks.py - Table: reviewer Column host_id defined as forign_key
+2023-01-16 16:14:24,820 - data_quality_checks.py - Table: reviewer Column date defined as forign_key
+2023-01-16 16:14:24,820 - data_quality_checks.py - Table: reviewer Column reviewer_id defined as forign_key
+2023-01-16 16:14:24,820 - data_quality_checks.py - Column reviewer_id Exist in table reviewer
+2023-01-16 16:14:24,841 - data_quality_checks.py - Table reviewer does not have duplicates in reviewer_id as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:24,841 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:24,841 - data_quality_checks.py - Table: airbnb_reviews Column id defined as primary_key
+2023-01-16 16:14:24,841 - data_quality_checks.py - Column id Exist in table airbnb_reviews
+2023-01-16 16:14:24,852 - data_quality_checks.py - Table airbnb_reviews does not have negatives in id as fact airbnb_reviews has defined it as primary_key
+2023-01-16 16:14:24,852 - data_quality_checks.py - Table: airbnb_reviews Column listing_id defined as forign_key
+2023-01-16 16:14:24,852 - data_quality_checks.py - Column listing_id Exist in table airbnb_reviews
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table airbnb_reviews does not have negatives in listing_id as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: airbnb_reviews Column host_id defined as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Column host_id Exist in table airbnb_reviews
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table airbnb_reviews does not have negatives in host_id as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: airbnb_reviews Column date defined as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Column date Exist in table airbnb_reviews
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: airbnb_reviews Column reviewer_id defined as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Column reviewer_id Exist in table airbnb_reviews
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table airbnb_reviews does not have negatives in reviewer_id as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: listing Column id defined as primary_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: listing Column listing_id defined as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Column listing_id Exist in table listing
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table listing does not have negatives in listing_id as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: listing Column host_id defined as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: listing Column date defined as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: listing Column reviewer_id defined as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: host Column id defined as primary_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: host Column listing_id defined as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: host Column host_id defined as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Column host_id Exist in table host
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table host does not have negatives in host_id as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: host Column date defined as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: host Column reviewer_id defined as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: date Column id defined as primary_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: date Column listing_id defined as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: date Column host_id defined as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: date Column date defined as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Column date Exist in table date
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: date Column reviewer_id defined as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: reviewer Column id defined as primary_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: reviewer Column listing_id defined as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: reviewer Column host_id defined as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: reviewer Column date defined as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Table: reviewer Column reviewer_id defined as forign_key
+2023-01-16 16:14:24,859 - data_quality_checks.py - Column reviewer_id Exist in table reviewer
+2023-01-16 16:14:24,871 - data_quality_checks.py - Table reviewer does not have negatives in reviewer_id as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:24,871 - data_quality_checks.py - Reading Preprocessed data from pre_processed\\la_listings.csv
+2023-01-16 16:14:24,871 - pre_processing.py - Reading from file pre_processed\\la_listings.csv
+2023-01-16 16:14:28,205 - data_quality_checks.py - Reading Preprocessed data from pre_processed\\la_airbnb-reviews.csv
+2023-01-16 16:14:28,205 - pre_processing.py - Reading from file pre_processed\\la_airbnb-reviews.csv
+2023-01-16 16:14:28,690 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:28,690 - data_quality_checks.py - Table: listing Column id defined as primary_key
+2023-01-16 16:14:28,690 - data_quality_checks.py - Table: listing Column listing_id defined as forign_key
+2023-01-16 16:14:28,690 - data_quality_checks.py - Column listing_id Exist in table listing
+2023-01-16 16:14:28,761 - data_quality_checks.py - 
+                        ------------------------------------
+                            Data Quality Check Failure
+                        ------------------------------------
+                        Check Details: check_primary_key_validity
+                        Table:		   listing
+                        ------------------------------------
+                        
+2023-01-16 16:14:28,761 - data_quality_checks.py - Table: listing Column host_id defined as forign_key
+2023-01-16 16:14:28,761 - data_quality_checks.py - Table: listing Column date defined as forign_key
+2023-01-16 16:14:28,761 - data_quality_checks.py - Table: listing Column reviewer_id defined as forign_key
+2023-01-16 16:14:28,761 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:28,761 - data_quality_checks.py - Table: host Column id defined as primary_key
+2023-01-16 16:14:28,769 - data_quality_checks.py - Table: host Column listing_id defined as forign_key
+2023-01-16 16:14:28,769 - data_quality_checks.py - Table: host Column host_id defined as forign_key
+2023-01-16 16:14:28,769 - data_quality_checks.py - Column host_id Exist in table host
+2023-01-16 16:14:28,769 - data_quality_checks.py - Table: host Column date defined as forign_key
+2023-01-16 16:14:28,769 - data_quality_checks.py - Table: host Column reviewer_id defined as forign_key
+2023-01-16 16:14:28,769 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:28,769 - data_quality_checks.py - Table: date Column id defined as primary_key
+2023-01-16 16:14:28,769 - data_quality_checks.py - Table: date Column listing_id defined as forign_key
+2023-01-16 16:14:28,769 - data_quality_checks.py - Table: date Column host_id defined as forign_key
+2023-01-16 16:14:28,769 - data_quality_checks.py - Table: date Column date defined as forign_key
+2023-01-16 16:14:28,769 - data_quality_checks.py - Column date Exist in table date
+2023-01-16 16:14:28,821 - data_quality_checks.py - Table date primary column date are equal from the source, as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:28,821 - data_quality_checks.py - Table: date Column reviewer_id defined as forign_key
+2023-01-16 16:14:28,821 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:28,821 - data_quality_checks.py - Table: reviewer Column id defined as primary_key
+2023-01-16 16:14:28,821 - data_quality_checks.py - Table: reviewer Column listing_id defined as forign_key
+2023-01-16 16:14:28,821 - data_quality_checks.py - Table: reviewer Column host_id defined as forign_key
+2023-01-16 16:14:28,821 - data_quality_checks.py - Table: reviewer Column date defined as forign_key
+2023-01-16 16:14:28,821 - data_quality_checks.py - Table: reviewer Column reviewer_id defined as forign_key
+2023-01-16 16:14:28,821 - data_quality_checks.py - Column reviewer_id Exist in table reviewer
+2023-01-16 16:14:29,224 - data_quality_checks.py - Table reviewer primary column reviewer_id are equal from the source, as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:29,224 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:29,224 - data_quality_checks.py - Table: listing Column id defined as primary_key
+2023-01-16 16:14:29,224 - data_quality_checks.py - Table: listing Column listing_id defined as forign_key
+2023-01-16 16:14:29,224 - data_quality_checks.py - Column listing_id Exist in table listing
+2023-01-16 16:14:29,252 - data_quality_checks.py - Table listing primary column listing_id are equal from the source, as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:29,254 - data_quality_checks.py - Table: listing Column host_id defined as forign_key
+2023-01-16 16:14:29,254 - data_quality_checks.py - Table: listing Column date defined as forign_key
+2023-01-16 16:14:29,254 - data_quality_checks.py - Table: listing Column reviewer_id defined as forign_key
+2023-01-16 16:14:29,254 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:29,254 - data_quality_checks.py - Table: host Column id defined as primary_key
+2023-01-16 16:14:29,254 - data_quality_checks.py - Table: host Column listing_id defined as forign_key
+2023-01-16 16:14:29,254 - data_quality_checks.py - Table: host Column host_id defined as forign_key
+2023-01-16 16:14:29,254 - data_quality_checks.py - Column host_id Exist in table host
+2023-01-16 16:14:29,272 - data_quality_checks.py - Table host primary column host_id are equal from the source, as fact airbnb_reviews has defined it as forign_key
+2023-01-16 16:14:29,272 - data_quality_checks.py - Table: host Column date defined as forign_key
+2023-01-16 16:14:29,272 - data_quality_checks.py - Table: host Column reviewer_id defined as forign_key
+2023-01-16 16:14:29,272 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:29,272 - data_quality_checks.py - Table: date Column id defined as primary_key
+2023-01-16 16:14:29,272 - data_quality_checks.py - Table: date Column listing_id defined as forign_key
+2023-01-16 16:14:29,272 - data_quality_checks.py - Table: date Column host_id defined as forign_key
+2023-01-16 16:14:29,272 - data_quality_checks.py - Table: date Column date defined as forign_key
+2023-01-16 16:14:29,272 - data_quality_checks.py - Column date Exist in table date
+2023-01-16 16:14:29,272 - data_quality_checks.py - Table: date Column reviewer_id defined as forign_key
+2023-01-16 16:14:29,272 - data_quality_checks.py - keys in dict {'id': 'primary_key', 'listing_id': 'forign_key', 'host_id': 'forign_key', 'date': 'forign_key', 'reviewer_id': 'forign_key'}
+2023-01-16 16:14:29,272 - data_quality_checks.py - Table: reviewer Column id defined as primary_key
+2023-01-16 16:14:29,272 - data_quality_checks.py - Table: reviewer Column listing_id defined as forign_key
+2023-01-16 16:14:29,272 - data_quality_checks.py - Table: reviewer Column host_id defined as forign_key
+2023-01-16 16:14:29,272 - data_quality_checks.py - Table: reviewer Column date defined as forign_key
+2023-01-16 16:14:29,272 - data_quality_checks.py - Table: reviewer Column reviewer_id defined as forign_key
+2023-01-16 16:14:29,272 - data_quality_checks.py - Column reviewer_id Exist in table reviewer
